@@ -1,0 +1,21 @@
+#nav {
+	border: 2px dotted #8DBEA7;
+	width: 40%;
+	background: rgba(141,190,167,0.3);
+	
+}
+
+body {
+	background: #F3F3F4;
+}
+h3 {
+	color: rgb(240,57,70);
+	background: rgba(240,57,70,0.3);
+}
+h1 {
+	background: white;
+}
+
+.topic{
+	border: 2px dotted rgba(240,57,70,0.3);
+}
