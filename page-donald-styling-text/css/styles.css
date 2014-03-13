@@ -1,20 +1,54 @@
+/*
+Kuler Colors:
+https://kuler.adobe.com/Black-Keys-color-theme-3502140/edit/?copy=true&base=0&rule=Custom&selected=0&name=Copy%20of%20Black%20Keys&mode=rgb&rgbvalues=0.6392156862745098,0.6588235294117647,0.2235294117647059,0.24705882352941178,0.24705882352941178,0.2549019607843137,0.9529411764705882,0.9529411764705882,0.9568627450980393,0.9411764705882353,0.2235294117647059,0.27450980392156865,0.5529411764705883,0.7450980392156863,0.6549019607843137&swatchOrder=0,1,2,3,4
+*/
 #nav {
-	border: 2px dotted #8DBEA7;
+	border: 2px double #8DBEA7;
 	width: 40%;
 	background: rgba(141,190,167,0.3);
-
+    font-family: Helvetica;
+}
+.quote{
+    font-style: italic;
+    text-align: center;
+    border: 2px dotted #3F3F41;
+}
+a:visited{
+    color:gray;
 }
 
+a:hover{
+    text-decoration: underline;
+}
+
+a:active{
+    color: #A3A839;
+}
+
+a{
+    text-decoration: none;
+}
 
 body {
 	background: #F3F3F4;
 }
+
+h1 {
+    color: #3F3F41;
+    line-height: 40px;
+    word-spacing: 10px;
+    letter-spacing: 20px;
+    font-size: 44px;
+    font-weight: bold;
+    text-align: center;
+
+    background: white;
+
+}
+
 h3 {
 	color: rgb(240,57,70);
 	background: rgba(240,57,70,0.3);
-}
-h1 {
-	background: white;
 }
 
 .topic{
