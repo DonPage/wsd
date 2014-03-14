@@ -1,5 +1,5 @@
 GitLinks:
 
-http://donpage.github.io/wsd/page-donald-styling-text/text.html
+http://donpage.github.io/wsd/page-donald-box-model/box.html
 
-https://github.com/DonPage/wsd/tree/gh-pages/page-donald-styling-text
+https://github.com/DonPage/wsd/tree/gh-pages/page-donald-box-model
