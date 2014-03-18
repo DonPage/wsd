@@ -9,7 +9,7 @@ https://kuler.adobe.com/Black-Keys-color-theme-3502140/edit/?copy=true&base=0&ru
 	width: 30%;
 	background: rgba(141,190,167,0.3);
     font-family: Helvetica;
-    border-radius: 10px;
+    border-radius: 10.5%;
     font-size: 0.8em;
     float: left;
     display: block;
@@ -18,17 +18,18 @@ https://kuler.adobe.com/Black-Keys-color-theme-3502140/edit/?copy=true&base=0&ru
 }
 
 .quote{
+	padding: 2%;
     font-style: italic;
     text-align: center;
-    border: 2px dotted #3F3F41;
+    border: .1em dotted #3F3F41;
 
 }
 .topic{
     display: inline-block;
     width:50%;
     padding: 0 2em 0 2em;
-    margin:10px auto;
-    border: 2px dotted rgba(240,57,70,0.3);
+    margin:1% auto;
+    border: .2em dotted rgba(240,57,70,0.3);
 
 
 }
@@ -37,17 +38,17 @@ https://kuler.adobe.com/Black-Keys-color-theme-3502140/edit/?copy=true&base=0&ru
     float: left;
 }
 
-/*#footer{*/
-    /*margin-left: 375px;*/
-    /*display:block;*/
-    /*text-align: center;*/
-/*}*/
+#footer{
+    text-align: center;
+    clear: both;
+    
+}
 
 #image{
-    display: inline;
+	
     float: left;
-    width: 10%;
-    height: 10%;
+	max-width: 1%;
+	max-height: auto;
 }
 a:visited{
     color:gray;
@@ -71,13 +72,13 @@ body {
 
 h1 {
     color: #3F3F41;
-    line-height: 40px;
-    word-spacing: 10px;
-    letter-spacing: 20px;
-    font-size: 44px;
+    line-height: 4%;
+    word-spacing: 0.625em;
+    letter-spacing: .2em;
+    font-size: 2.588em;
     font-weight: bold;
     text-align: center;
-    background: white;
+    clear: both;
 
 }
 
@@ -85,8 +86,8 @@ h3 {
 	color: rgb(240,57,70);
 	background: rgba(240,57,70,0.3);
     text-align: center;
-    border-radius: 10px;
-    box-shadow: 2px 2px grey;
+    border-radius: .8em;
+    box-shadow: .2em .2em grey;
 
 
 }
