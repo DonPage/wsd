@@ -1,5 +1,5 @@
 GitLinks:
 
-http://donpage.github.io/wsd/page-donald-box-model/box.html
+http://donpage.github.io/wsd/page-donald-layout/box.html
 
-https://github.com/DonPage/wsd/tree/gh-pages/page-donald-box-model
+https://github.com/DonPage/wsd/tree/gh-pages/page-donald-layout
