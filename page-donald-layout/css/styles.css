@@ -6,13 +6,14 @@ https://kuler.adobe.com/Black-Keys-color-theme-3502140/edit/?copy=true&base=0&ru
 
 #nav {
 	border: 2px double #8DBEA7;
-	width: 30%;
+	width: 20%;
 	background: rgba(141,190,167,0.3);
     font-family: Helvetica;
     border-radius: 10.5%;
     font-size: 0.8em;
     float: left;
     display: block;
+    margin-right: 2em;
 
 
 }
@@ -25,7 +26,6 @@ https://kuler.adobe.com/Black-Keys-color-theme-3502140/edit/?copy=true&base=0&ru
 
 }
 .topic{
-    display: inline-block;
     width:50%;
     padding: 0 2em 0 2em;
     margin:1% auto;
