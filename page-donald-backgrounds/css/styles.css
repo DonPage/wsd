@@ -14,7 +14,13 @@ https://kuler.adobe.com/Black-Keys-color-theme-3502140/edit/?copy=true&base=0&ru
     float: left;
     display: block;
     margin-right: 2em;
-
+background: rgb(246,248,249); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(246,248,249,1) 0%, rgba(229,235,238,1) 50%, rgba(215,222,227,1) 51%, rgba(245,247,249,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(246,248,249,1)), color-stop(50%,rgba(229,235,238,1)), color-stop(51%,rgba(215,222,227,1)), color-stop(100%,rgba(245,247,249,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(246,248,249,1) 0%,rgba(229,235,238,1) 50%,rgba(215,222,227,1) 51%,rgba(245,247,249,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(246,248,249,1) 0%,rgba(229,235,238,1) 50%,rgba(215,222,227,1) 51%,rgba(245,247,249,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(246,248,249,1) 0%,rgba(229,235,238,1) 50%,rgba(215,222,227,1) 51%,rgba(245,247,249,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(246,248,249,1) 0%,rgba(229,235,238,1) 50%,rgba(215,222,227,1) 51%,rgba(245,247,249,1) 100%); /* W3C */
 
 }
 
@@ -30,6 +36,14 @@ https://kuler.adobe.com/Black-Keys-color-theme-3502140/edit/?copy=true&base=0&ru
     padding: 0 2em 0 2em;
     margin:1% auto;
     border: .2em dotted rgba(240,57,70,0.3);
+background: -moz-linear-gradient(top, rgba(255,255,255,0.88) 0%, rgba(255,255,255,0.72) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.88)), color-stop(100%,rgba(255,255,255,0.72))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(255,255,255,0.88) 0%,rgba(255,255,255,0.72) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(255,255,255,0.88) 0%,rgba(255,255,255,0.72) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(255,255,255,0.88) 0%,rgba(255,255,255,0.72) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(255,255,255,0.88) 0%,rgba(255,255,255,0.72) 100%); /* W3C */
+
+    
 
 
 }
@@ -41,6 +55,7 @@ https://kuler.adobe.com/Black-Keys-color-theme-3502140/edit/?copy=true&base=0&ru
 #footer{
     text-align: center;
     clear: both;
+    color: white;
     
 }
 
@@ -67,11 +82,18 @@ a{
 }
 
 body {
-	background: #F3F3F4;
+/* 	background: #F3F3F4; */
+    background-image: url("../images/bg.gif"), url("../images/bg.gif");
+	background-repeat: repeat-x, repeat-y;
+	background-repeat: space;
+	background-repeat: round;
+
+
+	
 }
 
 h1 {
-    color: #3F3F41;
+    color: rgba(240,57,70,1);
     line-height: 4%;
     word-spacing: 0.625em;
     letter-spacing: .2em;
@@ -90,5 +112,11 @@ h3 {
     box-shadow: .2em .2em grey;
 
 
+}
+h4 {
+	background-image: url("../images/cylon_new.png");
+	background-repeat: no-repeat;
+	padding: 1% 5%;
+	
 }
 
