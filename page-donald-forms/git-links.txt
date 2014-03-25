@@ -1,0 +1,5 @@
+GitLinks:
+
+http://donpage.github.io/wsd/page-donald-html5-layout-tables/html5-layout-tables.html
+
+https://github.com/DonPage/wsd/tree/gh-pages/page-donald-html5-layout-tables
