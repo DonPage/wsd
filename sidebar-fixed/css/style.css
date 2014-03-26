@@ -56,3 +56,16 @@ body{
     text-align: center;
 }
 
+/*actual page content*/
+.page-content
+{
+    margin-top: 7em;
+    margin-right: 2em;
+    margin-left: 12em;
+    border: grey dotted .1em;
+    border-radius: 1em;
+
+} .page-content:hover{
+    border: grey solid .1em;
+  }
+
