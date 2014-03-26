@@ -28,7 +28,7 @@
           <file leaf-file-name="forms.html" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/forms.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="14" column="44" selection-start="351" selection-end="351" vertical-scroll-proportion="-0.89068824" vertical-offset="870" max-vertical-offset="1755">
+                <state line="23" column="52" selection-start="630" selection-end="630" vertical-scroll-proportion="0.2834008" vertical-offset="135" max-vertical-offset="1755">
                   <folding />
                 </state>
               </provider>
@@ -50,7 +50,7 @@
           <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/styles.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="42" column="0" selection-start="1981" selection-end="1981" vertical-scroll-proportion="0.85365856" vertical-offset="0" max-vertical-offset="3615">
+                <state line="5" column="14" selection-start="501" selection-end="501" vertical-scroll-proportion="0.09816754" vertical-offset="0" max-vertical-offset="3615">
                   <folding />
                 </state>
               </provider>
@@ -59,7 +59,7 @@
           <file leaf-file-name="git-links.txt" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/git-links.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="3" column="0" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+                <state line="3" column="0" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="150">
                   <folding />
                 </state>
               </provider>
@@ -144,6 +144,14 @@
     <property name="last_opened_file_path" value="$USER_HOME$/Documents/WebThemes/HTML5up Web Templates/html5up-prologue" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -154,23 +162,15 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="CHROME" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -192,7 +192,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="14" y="22" width="1422" height="874" extended-state="0" />
+    <frame x="14" y="22" width="1422" height="874" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -233,6 +233,27 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/forms.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="44" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0" vertical-offset="870" max-vertical-offset="1755">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="0" selection-start="1981" selection-end="1981" vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="3615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/git-links.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="150">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forms.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="66" column="61" selection-start="8653" selection-end="8653" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1755">
           <folding />
         </state>
@@ -268,14 +289,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/forms.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="44" selection-start="351" selection-end="351" vertical-scroll-proportion="-0.89068824" vertical-offset="870" max-vertical-offset="1755">
+        <state line="23" column="52" selection-start="630" selection-end="630" vertical-scroll-proportion="0.2834008" vertical-offset="135" max-vertical-offset="1755">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="1981" selection-end="1981" vertical-scroll-proportion="0.85365856" vertical-offset="0" max-vertical-offset="3615">
+        <state line="5" column="14" selection-start="501" selection-end="501" vertical-scroll-proportion="0.09816754" vertical-offset="0" max-vertical-offset="3615">
           <folding />
         </state>
       </provider>

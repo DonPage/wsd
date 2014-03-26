@@ -2,10 +2,16 @@
 body{
     margin: 0;
     padding: 0;
-    background: #1a1a1a;;
+    background: -webkit-linear-gradient(#EB77A6, #E23D80 );
+
     /*background-image: url('../images/little-bill1%20copy.jpg');*/
 }
-
+a
+{
+    color: white;
+}a:visited{
+    color: black;
+ }
 
 /*Left Panel*/
 .left-panel-fixed
@@ -26,7 +32,7 @@ body{
     left: 0;
     top: 0;
     position: fixed;
-    background: rgba(63,63,65,0.90);
+    background: rgba(63,63,65,0.95);
 
 }
 #user
@@ -46,6 +52,7 @@ body{
        background: rgba(240,57,70,.50);
    }.nav-item:hover{
     background: rgba(240,57,70,.90);
+
        }
 
 #login
@@ -70,6 +77,7 @@ body{
     width: 20.22em;
 }#login-button:hover{
     color: black;
+    cursor: pointer;
  }
 #logo
 {
