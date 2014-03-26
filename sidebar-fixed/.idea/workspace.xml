@@ -25,10 +25,10 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="32" column="20" selection-start="839" selection-end="839" vertical-scroll-proportion="0.44534412" vertical-offset="150" max-vertical-offset="1545">
+                <state line="73" column="75" selection-start="8778" selection-end="8778" vertical-scroll-proportion="0.109311745" vertical-offset="1014" max-vertical-offset="1755">
                   <folding />
                 </state>
               </provider>
@@ -37,7 +37,7 @@
           <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="6" column="1" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="1560">
+                <state line="6" column="1" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="1650">
                   <folding />
                 </state>
               </provider>
@@ -47,10 +47,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="32" column="1" selection-start="461" selection-end="461" vertical-scroll-proportion="0.3088803" vertical-offset="240" max-vertical-offset="1560">
+                <state line="86" column="17" selection-start="1277" selection-end="1277" vertical-scroll-proportion="0.6525096" vertical-offset="783" max-vertical-offset="1650">
                   <folding />
                 </state>
               </provider>
@@ -234,16 +234,16 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="20" selection-start="839" selection-end="839" vertical-scroll-proportion="0.44534412" vertical-offset="150" max-vertical-offset="1545">
+        <state line="6" column="1" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="1650">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="1" selection-start="461" selection-end="461" vertical-scroll-proportion="0.3088803" vertical-offset="240" max-vertical-offset="1560">
+        <state line="73" column="75" selection-start="8778" selection-end="8778" vertical-scroll-proportion="0.109311745" vertical-offset="1014" max-vertical-offset="1755">
           <folding />
         </state>
       </provider>

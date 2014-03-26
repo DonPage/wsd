@@ -37,7 +37,7 @@ body{
 {
     margin-top:10em;
 }.nav-list{
-    background: #F0F0F0;
+    background: black;
     list-style-type: none;
  }.nav-item{
     text-align: center;
@@ -68,7 +68,9 @@ body{
     background: rgb(240,57,70);
     color: white;
     width: 20.22em;
-}
+}#login-button:hover{
+    color: black;
+ }
 #logo
 {
     position: absolute;
@@ -81,16 +83,20 @@ body{
 .page-content
 {
     margin-top: 7em;
-    margin-right: 2em;
+    /*margin-right: 5%;*/
+    margin-right:2em;
     margin-left: 12em;
+    /*margin-left: 17%;*/
     border: grey dotted .1em;
     border-radius: 1em;
+    max-width: 80em;
     background: rgba(63,63,65,0.90)
 
 } .page-content:hover{
     border: grey solid .1em;
   }
   .page-content p{
+      text-indent: 1.5em;
       color: #F3F3F4;
       padding: 1em;
       line-height: 2em;
