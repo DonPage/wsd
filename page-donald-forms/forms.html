@@ -11,6 +11,14 @@
 	<body>
 	<div class="mainheading">
 	<h1>Cylon History</h1>
+	<form id="login">
+		<lable for="User-name">Name:</lable>
+		<input id="User-name" type="text" name="User name">
+		<lable for="User-pass">Pass:</lable>
+		<input id="User-pass" type="password" name="User pass">
+		<input class="button" type="submit" value="Login">
+
+	</form>
 	</div>
 	<nav>
 	<h2> <a href="#section1">Ancient Cylons</a></h2>
@@ -73,7 +81,27 @@ Fearing their human cousins in the distant Twelve Worlds would suffer the same f
 
     </aside>
 	
-	<footer>       <p>&#174; Don || <a href="http://en.battlestarwiki.org/wiki/Cylon_History">Wiki Link</a></p>	</footer>
+	<footer>       <p>made by Don Page || <a href="http://en.battlestarwiki.org/wiki/Cylon_History">Wiki Link</a></p>	
+	<form id="contact">
+		<h5>Contact Me</h5>
+
+		<input id="nameInput" class="footerInputs" type="text" name="name" placeholder="Name">
+		<input id="emailInput" class="footerInputs" type="text" name="email" placeholder="Email">
+		<textarea id="messageInput" class="footerInputs" name="message" placeholder="Message"></textarea>
+
+        <label for="blog" class="footerText"> Sign up for weekly blogs</label>
+        <input id="blog" type="checkbox" name="News" value="">
+        <label for="dropdown" class="footerText">What is your email regarding? </label>
+        <select id="dropdown">
+            <option value="Question">I have a Question</option>
+            <option value="talk">Small Talk</option>
+            <option value="hire">Job Offer</option>
+        </select>
+        <button>Send Message</button>
+
+    </form>
+	
+	</footer>
 	
 	</body>
 </html>

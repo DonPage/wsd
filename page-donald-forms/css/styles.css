@@ -2,12 +2,26 @@
 Kuler Colors:
 https://kuler.adobe.com/Black-Keys-color-theme-3502140/edit/?copy=true&base=0&rule=Custom&selected=0&name=Copy%20of%20Black%20Keys&mode=rgb&rgbvalues=0.6392156862745098,0.6588235294117647,0.2235294117647059,0.24705882352941178,0.24705882352941178,0.2549019607843137,0.9529411764705882,0.9529411764705882,0.9568627450980393,0.9411764705882353,0.2235294117647059,0.27450980392156865,0.5529411764705883,0.7450980392156863,0.6549019607843137&swatchOrder=0,1,2,3,4
 */
-
+body {
+    margin: 0;
+}
 .mainheading {
+	width: 100%;
+	height: 8%;
+	left: 0;
+	top: 0;
+	background: rgba(255,255,255,0.95);
+	position: fixed;
 	
 }
-
+form#login{
+	display: inline;
+	float: right;
+	margin: -1em auto;
+	
+}
 nav {
+	margin-top: 10%;
 	border: .2em double #8DBEA7;
 	width: 20%;
 	background: rgba(141,190,167,0.3);
@@ -37,6 +51,7 @@ background: linear-gradient(to bottom, rgba(246,248,249,1) 0%,rgba(229,235,238,1
 .topic{
     width:50%;
     padding: 0 2em 0 2em;
+    margin-top: 10%;
     margin:1% auto;
     border: .2em dotted rgba(240,57,70,0.3);
 background: -moz-linear-gradient(top, rgba(255,255,255,0.88) 0%, rgba(255,255,255,0.72) 100%); /* FF3.6+ */
@@ -50,6 +65,9 @@ background: linear-gradient(to bottom, rgba(255,255,255,0.88) 0%,rgba(255,255,25
 #section2.topic{
     float: left;
 }
+#section1.topic{
+	margin-top: 10%;
+}
 
 footer{
     text-align: center;
@@ -62,7 +80,7 @@ aside{
 	
     float: left;
 	max-width: 1%;
-	max-height: auto;
+
 }
 a:visited{
     color:gray;
@@ -81,25 +99,28 @@ a{
 }
 
 body {
-/* 	background: #F3F3F4; */
     background-image: url("../images/bg.gif"), url("../images/bg.gif");
 	background-repeat: repeat-x, repeat-y;
 	background-repeat: space;
 	background-repeat: round;
 
-
-	
 }
 
 h1 {
     color: rgba(240,57,70,1);
-    line-height: 4%;
-    word-spacing: 0.625em;
+    /* line-height: 100%; */
+	word-spacing: 0.625em;
     letter-spacing: .2em;
     font-size: 2.588em;
     font-weight: bold;
+    display: inline;
+    margin-left: 4em;
+
+
+/* 
     text-align: center;
     clear: both;
+ */
 
 }
 
@@ -117,6 +138,11 @@ h4 {
 	background-repeat: no-repeat;
 	padding: 1% 5%;
 	
+}
+
+h5 {
+	color: rgb(240,57,70);
+	font-size: 1.188em;
 }
 
 #tftable {
@@ -150,7 +176,45 @@ h4 {
 	background-color:#ffffff;
 }
 
+#contact{
+	background-color:rgba(255,255,255,0.95);
+	width: 100%;
+	padding: 0.55em;
+}
+.footerInputs{
+	width: 20%;
+    border: 0;
+    background: rgba(141,190,167,0.25);
 
+
+}
+
+input[type="text"], textarea{
+    color: #F03946;
+    font-weight: bold;
+}
+
+#messageInput, textarea{
+	width: 41%;
+	height: 7em;
+	display:block;
+	margin: auto;
+}
+button, .button{
+	border:0;
+	background: rgb(240,57,70);
+    color: white;
+    padding:1em;
+}
+button:hover, .button:hover{
+    cursor: pointer;
+    box-shadow: 0px 1px 1px black;
+}
+
+.footerText{
+    color: rgba(240,57,70,1);
+    display: inline;
+}
 
 
 
