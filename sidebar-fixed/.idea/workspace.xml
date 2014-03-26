@@ -25,10 +25,10 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="9" column="26" selection-start="255" selection-end="255" vertical-scroll-proportion="0.1790451" vertical-offset="0" max-vertical-offset="855">
+                <state line="45" column="422" selection-start="1838" selection-end="1838" vertical-scroll-proportion="0.1902834" vertical-offset="534" max-vertical-offset="1455">
                   <folding />
                 </state>
               </provider>
@@ -37,7 +37,7 @@
           <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="5" column="1" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1155">
+                <state line="6" column="1" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="1245">
                   <folding />
                 </state>
               </provider>
@@ -47,10 +47,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="43" column="1" selection-start="535" selection-end="535" vertical-scroll-proportion="0.34362933" vertical-offset="378" max-vertical-offset="1155">
+                <state line="63" column="22" selection-start="891" selection-end="891" vertical-scroll-proportion="0.6138996" vertical-offset="468" max-vertical-offset="1245">
                   <folding />
                 </state>
               </provider>
@@ -68,8 +68,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -234,16 +234,16 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="1" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1155">
+        <state line="45" column="422" selection-start="1838" selection-end="1838" vertical-scroll-proportion="0.1902834" vertical-offset="534" max-vertical-offset="1455">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="26" selection-start="255" selection-end="255" vertical-scroll-proportion="0.1790451" vertical-offset="0" max-vertical-offset="855">
+        <state line="63" column="22" selection-start="891" selection-end="891" vertical-scroll-proportion="0.6138996" vertical-offset="468" max-vertical-offset="1245">
           <folding />
         </state>
       </provider>
