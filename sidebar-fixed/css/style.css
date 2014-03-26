@@ -3,7 +3,7 @@ body{
     margin: 0;
     padding: 0;
     background: #1a1a1a;;
-    background-image: url('../images/little-bill1%20copy.jpg');
+    /*background-image: url('../images/little-bill1%20copy.jpg');*/
 }
 
 
@@ -29,6 +29,25 @@ body{
     background: rgba(63,63,65,0.90);
 
 }
+#user
+{
+    margin: 2em;
+}
+#links
+{
+    margin-top:10em;
+}.nav-list{
+    background: #F0F0F0;
+    list-style-type: none;
+ }.nav-item{
+    text-align: center;
+    margin-left: -2em;
+    padding:1em;
+       background: rgba(240,57,70,.50);
+   }.nav-item:hover{
+    background: rgba(240,57,70,.90);
+       }
+
 #login
 {
     float: right;
@@ -37,6 +56,7 @@ body{
 }
 #Userpass,#Username
 {
+    border: 0;
     display: block;
     width: 20em;
     margin-right: 10em;
@@ -47,7 +67,7 @@ body{
     border:0;
     background: rgb(240,57,70);
     color: white;
-    width: 20.6em;
+    width: 20.22em;
 }
 #logo
 {
@@ -71,7 +91,8 @@ body{
     border: grey solid .1em;
   }
   .page-content p{
-      color: grey;
+      color: #F3F3F4;
       padding: 1em;
+      line-height: 2em;
   }
 

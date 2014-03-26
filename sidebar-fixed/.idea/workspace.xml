@@ -28,7 +28,7 @@
           <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="16" column="14" selection-start="340" selection-end="340" vertical-scroll-proportion="0.32388663" vertical-offset="0" max-vertical-offset="1455">
+                <state line="32" column="20" selection-start="839" selection-end="839" vertical-scroll-proportion="0.44534412" vertical-offset="150" max-vertical-offset="1545">
                   <folding />
                 </state>
               </provider>
@@ -37,7 +37,7 @@
           <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="6" column="1" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="1245">
+                <state line="6" column="1" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="1560">
                   <folding />
                 </state>
               </provider>
@@ -50,7 +50,7 @@
           <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="48" column="17" selection-start="687" selection-end="687" vertical-scroll-proportion="0.3243243" vertical-offset="468" max-vertical-offset="1245">
+                <state line="32" column="1" selection-start="461" selection-end="461" vertical-scroll-proportion="0.3088803" vertical-offset="240" max-vertical-offset="1560">
                   <folding />
                 </state>
               </provider>
@@ -236,14 +236,14 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="14" selection-start="340" selection-end="340" vertical-scroll-proportion="0.32388663" vertical-offset="0" max-vertical-offset="1455">
+        <state line="32" column="20" selection-start="839" selection-end="839" vertical-scroll-proportion="0.44534412" vertical-offset="150" max-vertical-offset="1545">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="17" selection-start="687" selection-end="687" vertical-scroll-proportion="0.3243243" vertical-offset="468" max-vertical-offset="1245">
+        <state line="32" column="1" selection-start="461" selection-end="461" vertical-scroll-proportion="0.3088803" vertical-offset="240" max-vertical-offset="1560">
           <folding />
         </state>
       </provider>
