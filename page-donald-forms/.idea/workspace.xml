@@ -28,7 +28,7 @@
           <file leaf-file-name="forms.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/forms.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="14" column="44" selection-start="351" selection-end="351" vertical-scroll-proportion="-1.0850202" vertical-offset="1014" max-vertical-offset="1755">
+                <state line="74" column="51" selection-start="9368" selection-end="9368" vertical-scroll-proportion="0.6356275" vertical-offset="639" max-vertical-offset="1755">
                   <folding />
                 </state>
               </provider>
@@ -47,19 +47,19 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/styles.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="23" column="20" selection-start="716" selection-end="716" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3615">
+                <state line="31" column="19" selection-start="908" selection-end="908" vertical-scroll-proportion="0.60863876" vertical-offset="0" max-vertical-offset="3615">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="git-links.txt" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="git-links.txt" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/git-links.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="2" column="0" selection-start="11" selection-end="68" vertical-scroll-proportion="0.038610037" vertical-offset="0" max-vertical-offset="777">
+                <state line="2" column="0" selection-start="11" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
                   <folding />
                 </state>
               </provider>
@@ -259,6 +259,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/git-links.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="11" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="201" column="1" selection-start="4852" selection-end="4852" vertical-scroll-proportion="0.0" vertical-offset="2701" max-vertical-offset="3615">
@@ -266,16 +273,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/git-links.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="11" selection-end="68" vertical-scroll-proportion="0.038610037" vertical-offset="0" max-vertical-offset="777">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/forms.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="44" selection-start="351" selection-end="351" vertical-scroll-proportion="-1.0850202" vertical-offset="1014" max-vertical-offset="1755">
+        <state line="74" column="51" selection-start="9368" selection-end="9368" vertical-scroll-proportion="0.6356275" vertical-offset="639" max-vertical-offset="1755">
           <folding />
         </state>
       </provider>
