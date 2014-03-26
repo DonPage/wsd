@@ -28,7 +28,7 @@
           <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="36" column="49" selection-start="1049" selection-end="1055" vertical-scroll-proportion="0.5465587" vertical-offset="135" max-vertical-offset="1785">
+                <state line="10" column="28" selection-start="284" selection-end="284" vertical-scroll-proportion="0.20242915" vertical-offset="0" max-vertical-offset="1785">
                   <folding />
                 </state>
               </provider>
@@ -37,7 +37,7 @@
           <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="7" column="1" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="1770">
+                <state line="7" column="1" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="1770">
                   <folding />
                 </state>
               </provider>
@@ -50,7 +50,7 @@
           <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="4" column="59" selection-start="106" selection-end="106" vertical-scroll-proportion="0.077220075" vertical-offset="0" max-vertical-offset="1770">
+                <state line="2" column="14" selection-start="30" selection-end="30" vertical-scroll-proportion="0.034749035" vertical-offset="3" max-vertical-offset="1770">
                   <folding />
                 </state>
               </provider>
@@ -214,14 +214,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="49" selection-start="1049" selection-end="1055" vertical-scroll-proportion="0.5465587" vertical-offset="135" max-vertical-offset="1785">
+        <state line="10" column="28" selection-start="284" selection-end="284" vertical-scroll-proportion="0.20242915" vertical-offset="0" max-vertical-offset="1785">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="59" selection-start="106" selection-end="106" vertical-scroll-proportion="0.077220075" vertical-offset="0" max-vertical-offset="1770">
+        <state line="2" column="14" selection-start="30" selection-end="30" vertical-scroll-proportion="0.034749035" vertical-offset="3" max-vertical-offset="1770">
           <folding />
         </state>
       </provider>
