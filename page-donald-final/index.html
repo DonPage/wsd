@@ -2,12 +2,119 @@
 <html>
 <head>
     <meta charset="utf-8"/>
-    <title></title>
-    <link href="#styleSheetHere.css" rel="stylesheet" type="text/css" media="all"/>
+    <title>Just Testing</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
 </head>
 <body>
+<nav id="top-header" class="top-panel-fixed">
+    <div id="center-logo">
+        <p id="logo"><img src="images/fullname.png"/> </p>
+    </div>
 
 
-<script src="#scriptHere.js"></script>
+
+    <div id="login">
+        <form>
+            <label for="Username"></label>
+            <input id="Username" type="text" name="User-Name" placeholder="Type any name" >
+            <label for="Userpass"></label>
+            <input id="Userpass" type="password" name="User-pass" placeholder="Type any password" >
+            <input id="login-button" type="button" name="button-login" value="Login">
+        </form>
+    </div>
+</nav>
+
+<nav id="left-header" class="left-panel-fixed">
+    <div id="userDiv">
+        <p id="user">Not logged In.</p>
+    </div>
+
+    <div id="small-logo">
+        <img src="images/name-logo.png" alt="Company logo">
+        <p>Restaurant & Bar</p>
+    </div>
+
+    <div id="links">
+        <ul class="nav-list">
+            <li id="t1" class="nav-item"><a href="#wrap1">About Us</a></li>
+            <li id="t2" class="nav-item"><a href="#wrap2">How to Join</a></li>
+            <li id="t3" class="nav-item"><a href="#table">Info</a></li>
+            <li id="t4" class="nav-item"><a href="#wrap4">Contact</a></li>
+        </ul>
+
+    </div>
+
+
+    <div id="tweet">
+
+    </div>
+
+    <footer>
+        <h5>Made by <br> Don Page</h5>
+        <h5 class="twitter">@<a href="https://twitter.com/DonRPage">DonRPage</a></h5>
+    </footer>
+</nav>
+
+<article id="wrap1" class="page-content">
+    <h1 id="topic1">About Us</h1>
+    <p>
+        The Red Secrets Bar is a bar founded by the Apes in the earliest of days, some say it was the first place to go when trying to get 'drunk'
+        We were able to keep this place running exceptional well once we evolved into Humans, some might even say the Red Secrets Bar may be the reason we evolved so quickly.
+        To keep up with tradition, we enforce new ways of getting drunk and eating so we Humans will evolve once more.
+    </p>
+    <p>
+        But unlike in the early days where The Red Secrets was open to everyone, we now enforce a invite only membership and all employees have to pay $430 application fee for background check.
+        This was put inplace to keep balance in order and traditions pure.
+    </p>
+
+
+
+</article>
+<article id="wrap2" class="page-content">
+    <h1 id="topic2">How To Join</h1>
+    <p>
+        To join this exclusive bar you must have a already active member vouch for you.
+        Once you get the voutches you need you will be ranked as a trail member. During this period
+        you will go through a series of challenges to test your worthiness.
+    </p>
+    <p> If you need to know how much the food cost then don't join.</p>
+
+
+</article>
+
+<article id="table" class="page-content">
+    <h1 id="topic3">Ranking Info</h1>
+    <table id="blacktable" class="topictable" border="1">
+
+        <tr><th>Rank</th><th>How to get</th><th>What can do</th></tr>
+        <tr><td>Trail</td><td>Get recruited by someone</td><td>Can walk around the bar</td></tr>
+        <tr><td>Member</td><td>finish trail phase</td><td>Can eat</td></tr>
+        <tr><td>Recruiter</td><td>recruit more than 3 people</td><td>Can eat & drink</td></tr>
+        <tr><td>Employee</td><td>pass background check</td><td>Can eat & drink</td></tr>
+    </table>
+
+</article>
+
+<article id="wrap4" class="page-content">
+    <h1 id="contact-form">Contact Us</h1>
+    <form id="contact-me">
+
+        <input id="contact-name" type="text" placeholder="Name*" name="name" maxlength="40" required>
+        <input id="contact-email" type="email" placeholder="E-mail*" name="email" required>
+        <label for="contact-message"></label><br>
+        <textarea id="contact-message" name="message" placeholder="Write a Message"></textarea><br>
+        <label for="newsletter">I would like to sign up for newsletter</label>
+        <input id="newsletter" type="checkbox">
+
+        <input id="contact-submit" name="submit" type="submit" value="Send Message">
+
+    </form>
+
+
+
+</article>
+
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
