@@ -98,7 +98,7 @@ textarea:focus, input:focus
         color: white;
     }
     .nav-item:active::after{
-        content: ;
+        content: "<";
         color: black;
     }
 
