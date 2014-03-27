@@ -8,7 +8,7 @@ body{
 }
 @font-face {
     font-family: "Infinity";
-    src: url("/fonts/Infinity.ttf"); format("truetype");
+    src: url("/fonts/Infinity.ttf") format("truetype");
 }
 label
 {
