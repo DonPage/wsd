@@ -32,10 +32,10 @@
 
     <div id="links">
         <ul class="nav-list">
-            <li class="nav-item"><a href="#topic1">Topic 1</a></li>
-            <li class="nav-item"><a href="#topic2">Topic 2</a></li>
-            <li class="nav-item"><a href="#topic2">Table</a></li>
-            <li class="nav-item"><a href="#contact-form">Contact</a></li>
+            <li id="t1" class="nav-item"><a href="#topic1">Topic 1</a></li>
+            <li id="t2" class="nav-item"><a href="#topic2">Topic 2</a></li>
+            <li id="t3" class="nav-item"><a href="#table">Table</a></li>
+            <li id="t4" class="nav-item"><a href="#contact-form">Contact</a></li>
         </ul>
 
     </div>
@@ -104,6 +104,32 @@
         Vivamus tellus purus, convallis et metus sed, imperdiet condimentum ligula. Fusce commodo elit ut nisl pulvinar, at auctor erat laoreet. Etiam porttitor fringilla urna nec tincidunt. Aenean nibh augue, tristique quis elit ac, ultrices semper sem. Nullam eu convallis tortor. Ut viverra sagittis erat faucibus porta. Cras dignissim turpis ut sollicitudin congue.
 
         Morbi velit libero, malesuada eu pharetra et, ultrices a nunc. Aenean ut quam ut justo consectetur suscipit. Pellentesque a ultrices urna. Nam nec aliquam magna. Mauris quis mattis purus. Nam mattis magna eget nulla commodo tristique. Curabitur nec placerat nibh. Morbi convallis auctor diam, id faucibus odio sodales et. Proin nunc lacus, pretium sit amet mi eu, lacinia adipiscing ipsum. Aenean cursus orci vitae eros pulvinar elementum. In sagittis mollis nunc, vitae tempor ante laoreet eget.</p>
+
+
+
+</div>
+
+<div id="table" class="page-content">
+
+    <table id="blacktable" class="topictable" border="1">
+        <tr><th>Header 1</th><th>Header 2</th><th>Header 3</th></tr>
+        <tr><td>Row:1 Cell:1</td><td>Row:1 Cell:2</td><td>Row:1 Cell:3</td></tr>
+        <tr><td>Row:2 Cell:1</td><td>Row:2 Cell:2</td><td>Row:2 Cell:3</td></tr>
+    </table>
+
+</div>
+
+<div class="page-content">
+    <h1 id="contact-form">Contact Me</h1>
+    <form id="contact-me">
+
+        <input id="contact-name" type="text" placeholder="Name*" name="name" maxlength="40" required>
+        <input id="contact-email" type="email" placeholder="E-mail*" name="email" required>
+        <label for="contact-message"></label><br>
+        <textarea id="contact-message" name="message" placeholder="Write a Message"></textarea><br>
+        <input id="contact-submit" name="submit" type="submit" value="Send Message">
+
+    </form>
 
 
 
