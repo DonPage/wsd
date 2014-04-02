@@ -1,0 +1,200 @@
+/* CSS
+ * Color Scheme: https://kuler.adobe.com/Louise_01-color-theme-3696336/edit/?copy=true
+ */
+body
+{
+    margin:0;
+    padding: 0;
+    background: #565853;
+}
+
+@font-face
+{
+    font-family: "Infinity";
+    src: url("/fonts/Infinity.ttf") format("truetype");
+}
+
+.infinity-font
+{
+    font-family: "Infinity", helveticaneue, "Helvetica Neue", helvetica, sans-serif;
+}
+#logo-text
+{
+    margin-top: .2em;
+    margin-left: 0;
+    font-size: 2.5em;
+    float: left;
+    width: 30%;
+    position: relative;
+    padding-left: .2em;
+}
+label
+{
+    -webkit-transition: background 0.5s ease;
+    -moz-transition: background 0.5s ease;
+    -o-transition: background 0.5s ease;
+    transition: background 0.5s ease;
+    background: rgba(94,145,144,0.20);
+    padding: .8em;
+
+
+}
+label a
+{
+    padding: 3% .8em;
+    color: black;
+    text-decoration: none;
+}
+label:hover
+{
+    -webkit-transition: background 0.5s ease;
+    -moz-transition: background 0.5s ease;
+    -o-transition: background 0.5s ease;
+    transition: background 0.5s ease;
+    background: rgba(94,145,144,1.0);
+    border-bottom: rgba(189, 74, 97, 1) ridge .2em;
+}
+
+nav
+{
+    -webkit-transition: background 0.8s ease;
+    -moz-transition: background 0.8s ease;
+    -o-transition: background 0.8s ease;
+    transition: background 0.8s ease;
+    width: 100%;
+    height: 4em;
+    background: rgba(25, 25, 25, 0.94);
+    left: 0;
+    top: 0;
+    position: fixed;
+    border-bottom: rgba(25, 25, 25, 0.95) ridge .12em
+}
+nav:hover
+{
+    -webkit-transition: all 0.8s ease;
+    -moz-transition: all 0.8s ease;
+    -o-transition: all 0.8s ease;
+    transition: all 0.8s ease;
+    background: rgba(248, 243, 240, 0.95);
+    /*border-color: rgba(25, 25, 25, 0.95);*/
+    /*border-bottom-style: ridge;*/
+    /*border-width: .12em;*/
+    border-bottom: rgba(25, 25, 25, 0.95) ridge .12em
+}
+#nav-wrapper
+{
+    margin: 0 auto;
+    display: inline;
+}
+#nav-buttons
+{
+    padding-top: 1.5em;
+    float: right;
+
+}
+
+.project
+{
+
+    margin: 6em 10%;
+    max-width: 70em;
+}
+.project p
+{
+    border-top-right-radius: .8em;
+    border-top-style: solid;
+    border-width: .1em;
+    display: block;
+    float: left;
+    margin-right: 23em;
+    margin-top: -.5em;
+    color: #DCD9CD;
+}
+.project h1, .project h4
+{
+    font-family: helveticaneue, "Helvetica Neue", helvetica, sans-serif;
+    color: white;
+}
+.project figure
+{
+    float: right;
+    margin: -15em 0 20px 0;
+    width: 30%;
+}
+.figure img
+{
+    width: 100%;
+}
+figcaption
+{
+    color: #DCD9CD;
+}
+
+.test
+{
+    clear: both;
+    background: white;
+    margin: 6em 20%;
+    border-top-left-radius: .5em;
+    border-top-right-radius: .5em;
+    max-width: 50em;
+
+}
+.test p
+{
+    margin: 0;
+}
+h2
+{
+    text-align: center;
+    font-family: "Infinity", helveticaneue, "Helvetica Neue", helvetica, sans-serif;
+    font-size: 2em;
+    background: #262422;
+    color: white;
+    border-top-left-radius: .22em;
+    border-top-right-radius: .22em;
+
+
+}
+
+
+.project-table
+{
+    margin-top: 0;
+    width: 100%;
+    border: 1px #565853;
+    border-collapse: collapse;
+}
+.project-table th
+{
+    background: rgba(94,145,144,0.0);
+    border: .3em solid white;
+    padding: .5em;
+}
+.project-table th:hover
+{
+    -webkit-transition: background 0.9s ease;
+    -moz-transition: background 0.9s ease;
+    -o-transition: background 0.9s ease;
+    transition: background 0.9s ease;
+    background: rgba(94,145,144,0.8);
+}
+th a
+{
+    padding: 10px 5% 20px;
+    display: block;
+    background: rgba(94,145,144,0.5);
+    text-decoration: none;
+    color: black;
+    border: rgba(189, 74, 97, 0.0) ridge .2em;
+}
+th a:hover
+{
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.8s ease;
+    transition: all 0.8s ease;
+    background: rgba(248, 243, 240, 0.95);
+    border: rgba(189, 74, 97, 1) ridge .2em;
+}
+
