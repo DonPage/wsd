@@ -7,7 +7,10 @@ body
     padding: 0;
     background: #565853;
 }
-
+p
+{
+    text-indent: 0.7em;
+}
 @font-face
 {
     font-family: "Infinity";
@@ -47,10 +50,10 @@ label a
 }
 label:hover
 {
-    -webkit-transition: background 0.5s ease;
-    -moz-transition: background 0.5s ease;
-    -o-transition: background 0.5s ease;
-    transition: background 0.5s ease;
+    -webkit-transition: background .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out;
+    -o-transition: background .5s ease-in-out;
+    transition: background .5s ease-in-out;
     background: rgba(94,145,144,1.0);
     border-bottom: rgba(189, 74, 97, 1) ridge .2em;
 }
@@ -173,10 +176,10 @@ h2
 }
 .project-table th:hover
 {
-    -webkit-transition: background 0.9s ease;
-    -moz-transition: background 0.9s ease;
-    -o-transition: background 0.9s ease;
-    transition: background 0.9s ease;
+    -webkit-transition: background 0.9s ease-out-in;
+    -moz-transition: background 0.9s ease-out-in;
+    -o-transition: background 0.9s ease-out-in;
+    transition: background 0.9s ease-out-in;
     background: rgba(94,145,144,0.8);
 }
 th a
