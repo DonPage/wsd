@@ -37,6 +37,7 @@ label
     -moz-transition: background 0.5s ease;
     -o-transition: background 0.5s ease;
     transition: background 0.5s ease;
+
     background: rgba(94,145,144,0.20);
     padding: .8em;
 
@@ -180,7 +181,8 @@ h2
     -moz-transition: background 0.9s ease-out-in;
     -o-transition: background 0.9s ease-out-in;
     transition: background 0.9s ease-out-in;
-    background: rgba(94,145,144,0.8);
+    background: radial-gradient(ellipse at center, rgba(0,0,0,.35) 0%,rgba(0,0,0,0) 80%); /* W3C */
+
 }
 th a
 {
@@ -199,5 +201,6 @@ th a:hover
     transition: all 0.8s ease;
     background: rgba(248, 243, 240, 0.95);
     border: rgba(189, 74, 97, 1) ridge .2em;
+    background: radial-gradient(ellipse at center, rgba(0,0,0,.15) 0%,rgba(0,0,0,0) 10%);
 }
 
