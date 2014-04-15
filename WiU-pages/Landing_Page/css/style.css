@@ -16,6 +16,32 @@ p
     font-family: "Infinity";
     src: url("../fonts/Infinity.ttf") format("truetype");
 }
+a:visited
+{
+    color: ghostwhite;
+}
+h2:before
+{
+    display: block;
+    content: " ";
+    margin-top: -75px;
+    height: 5px;
+
+
+}
+h2
+{
+    cursor: pointer;
+}
+h2 a
+{
+    color: white;
+}
+h2 a:after
+{
+    content: ' | open';
+
+}
 
 .infinity-font
 {
@@ -31,7 +57,7 @@ p
     position: relative;
     padding-left: .2em;
 }
-label
+#nav-buttons label
 {
     -webkit-transition: background 0.5s ease;
     -moz-transition: background 0.5s ease;
@@ -43,20 +69,20 @@ label
 
 
 }
-label a
+#nav-buttons label a
 {
     padding: 3% .8em;
     color: black;
     text-decoration: none;
 }
-label:hover
+#nav-buttons label:hover
 {
     -webkit-transition: background .5s ease-in-out;
     -moz-transition: background .5s ease-in-out;
     -o-transition: background .5s ease-in-out;
     transition: background .5s ease-in-out;
     background: rgba(94,145,144,1.0);
-    border-bottom: rgba(189, 74, 97, 1) ridge .2em;
+    border-bottom: rgb(0, 0, 0) ridge .2em;
 }
 
 nav
@@ -72,6 +98,7 @@ nav
     top: 0;
     position: fixed;
     border-bottom: rgba(25, 25, 25, 0.95) ridge .12em
+
 }
 nav:hover
 {
@@ -137,11 +164,12 @@ figcaption
 .test
 {
     clear: both;
-    background: white;
+    background: rgba(255, 255, 255, 0);
     margin: 6em 20%;
     border-top-left-radius: .5em;
     border-top-right-radius: .5em;
     max-width: 50em;
+
 
 }
 .test p
@@ -157,25 +185,67 @@ h2
     color: white;
     border-top-left-radius: .22em;
     border-top-right-radius: .22em;
+    margin: 0 auto;
 
 
 }
 
+.table-wrap
+{
+    background:#181818;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
 
-.project-table
+}
+
+
+
+
+table
 {
     margin-top: 0;
     width: 100%;
     border: 1px #565853;
     border-collapse: collapse;
+    background: white;
+    overflow:hidden;
+    /*display: none;*/
+
+
+
 }
-.project-table th
+table:target{
+    /*display:table;*/
+
+}
+/*read main.js*/
+.project-table1, .project-table2, .project-table3, .project-table4, .project-table5, .project-table6
+{
+    -webkit-transition:  .5s cubic-bezier(0, 1, 0.5, 1);
+    -moz-transition:  .5s cubic-bezier(0, 1, 0.5, 1);
+    -o-transition:  .5s cubic-bezier(0, 1, 0.5, 1);
+    transition: .5s cubic-bezier(0, 1, 0.5, 1);
+    -webkit-transform:  translateY(0);
+    -moz-transform:  translateY(0);
+    -o-transform:  translateY(0);
+    transform: translateY(0);
+}
+
+.slide-up {
+    -webkit-transform:  translateY(-100%);
+    -moz-transform:  translateY(-100%);
+    -o-transform:  translateY(-100%);
+    transform: translateY(-100%);
+}
+
+table th
 {
     background: rgba(94,145,144,0.0);
     border: .3em solid white;
     padding: .5em;
 }
-.project-table th:hover
+table th:hover
 {
     -webkit-transition: background 0.9s ease-out-in;
     -moz-transition: background 0.9s ease-out-in;
@@ -204,7 +274,7 @@ th a:hover
     -o-transition: all 0.8s ease;
     transition: all 0.8s ease;
     background: rgba(248, 243, 240, 0.95);
-    border: rgba(189, 74, 97, 1) ridge .2em;
+    border: rgb(0, 0, 0) ridge .2em;
     background: radial-gradient(ellipse at center, rgba(0,0,0,.15) 0%,rgba(0,0,0,0) 10%);
 }
 
