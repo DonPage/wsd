@@ -186,9 +186,13 @@ h2
 }
 th a
 {
+
     padding: 10px 5% 20px;
     display: block;
-    background: rgba(94,145,144,0.5);
+    /*background: rgba(94,145,144,0.5);*/
+    background: radial-gradient(
+        #5e9190, rgba(94,145,144,0.5)
+    );
     text-decoration: none;
     color: black;
     border: rgba(189, 74, 97, 0.0) ridge .2em;
