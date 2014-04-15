@@ -39,7 +39,7 @@ h2 a
 }
 h2 a:after
 {
-    content: ' | open';
+    content: ' | Done';
 
 }
 
@@ -169,6 +169,7 @@ figcaption
     border-top-left-radius: .5em;
     border-top-right-radius: .5em;
     max-width: 50em;
+
 
 
 }
