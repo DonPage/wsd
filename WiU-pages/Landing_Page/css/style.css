@@ -5,7 +5,7 @@ body
 {
     margin:0;
     padding: 0;
-    background: #565853;
+    background: #163441;
 }
 p
 {
@@ -18,7 +18,7 @@ p
 }
 a:visited
 {
-    color: ghostwhite;
+    color: black;
 }
 h2:before
 {
@@ -31,11 +31,14 @@ h2:before
 }
 h2
 {
-    cursor: pointer;
+    /*cursor: pointer;*/
 }
 h2 a
 {
+    background: rgba(151, 151, 151, 0);
     color: white;
+    padding: 0 40%;
+    cursor: pointer;
 }
 h2 a:after
 {
@@ -47,6 +50,19 @@ h2 a:after
 {
     font-family: "Infinity", helveticaneue, "Helvetica Neue", helvetica, sans-serif;
 }
+
+#logo
+{
+    display: inline;
+}
+.logo-img
+{
+    padding-left: 1em;
+    width: 8em;
+    height: 100%;
+    position: relative;
+}
+
 #logo-text
 {
     margin-top: .2em;
@@ -97,9 +113,11 @@ nav
     left: 0;
     top: 0;
     position: fixed;
-    border-bottom: rgba(25, 25, 25, 0.95) ridge .12em
+    border-bottom: rgba(25, 25, 25, 0.95) ridge .12em;
+    z-index:9999;
 
 }
+
 nav:hover
 {
     -webkit-transition: all 0.8s ease;
@@ -169,10 +187,8 @@ figcaption
     border-top-left-radius: .5em;
     border-top-right-radius: .5em;
     max-width: 50em;
-
-
-
 }
+
 .test p
 {
     margin: 0;
@@ -220,7 +236,7 @@ table:target{
     /*display:table;*/
 
 }
-/*read main.js*/
+/*errrrr yeah... about this...*/
 .project-table1, .project-table2, .project-table3, .project-table4, .project-table5, .project-table6
 {
     -webkit-transition:  .5s cubic-bezier(0, 1, 0.5, 1);
@@ -243,7 +259,7 @@ table:target{
 table th
 {
     background: rgba(94,145,144,0.0);
-    border: .3em solid white;
+    border: .3em solid #649ea8;
     padding: .5em;
 }
 table th:hover
