@@ -28,7 +28,7 @@
           <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="109" column="26" selection-start="4523" selection-end="4523" vertical-scroll-proportion="0.41295546" vertical-offset="1329" max-vertical-offset="2070">
+                <state line="93" column="29" selection-start="3947" selection-end="3947" vertical-scroll-proportion="0.08906882" vertical-offset="1329" max-vertical-offset="2130">
                   <folding />
                 </state>
               </provider>
@@ -37,7 +37,7 @@
           <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="65" column="20" selection-start="2217" selection-end="2217" vertical-scroll-proportion="0.0" vertical-offset="706" max-vertical-offset="1470">
+                <state line="65" column="20" selection-start="2217" selection-end="2217" vertical-scroll-proportion="0.0" vertical-offset="975" max-vertical-offset="1470">
                   <folding />
                 </state>
               </provider>
@@ -50,7 +50,7 @@
           <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="74" column="1" selection-start="992" selection-end="992" vertical-scroll-proportion="-3.2984293" vertical-offset="3630" max-vertical-offset="4545">
+                <state line="268" column="47" selection-start="4754" selection-end="4754" vertical-scroll-proportion="0.5104712" vertical-offset="3630" max-vertical-offset="4545">
                   <folding />
                 </state>
               </provider>
@@ -176,14 +176,6 @@
     <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -194,15 +186,23 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="CHROME" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -224,7 +224,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="874" extended-state="0" />
+    <frame x="0" y="22" width="1440" height="874" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -271,6 +271,20 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="20" selection-start="2217" selection-end="2217" vertical-scroll-proportion="0.0" vertical-offset="975" max-vertical-offset="1470">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="1" selection-start="992" selection-end="992" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4545">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="31" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1995">
@@ -585,13 +599,6 @@
         <state line="11" column="29" selection-start="254" selection-end="254" vertical-scroll-proportion="0.23044693" vertical-offset="0" max-vertical-offset="716" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="1" selection-start="992" selection-end="992" vertical-scroll-proportion="-3.2984293" vertical-offset="3630" max-vertical-offset="4545">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="65" column="20" selection-start="2217" selection-end="2217" vertical-scroll-proportion="0.0" vertical-offset="706" max-vertical-offset="1470">
@@ -599,9 +606,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="268" column="47" selection-start="4754" selection-end="4754" vertical-scroll-proportion="0.5104712" vertical-offset="3630" max-vertical-offset="4545">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="26" selection-start="4523" selection-end="4523" vertical-scroll-proportion="0.41295546" vertical-offset="1329" max-vertical-offset="2070">
+        <state line="93" column="29" selection-start="3947" selection-end="3947" vertical-scroll-proportion="0.08906882" vertical-offset="1329" max-vertical-offset="2130">
           <folding />
         </state>
       </provider>
