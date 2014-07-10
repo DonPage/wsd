@@ -1,0 +1,90 @@
+/* CSS
+        Created By: Don Page
+        Don.page.work@gmail.com
+        @DonRPage
+ */
+/*--------------------------------------Start CSS Reset---------------------------------------------*/
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, cite, code, del, em, img, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+
+/*--------------------------------------End CSS Reset / Start General-------------------------------*/
+
+
+nav ul{
+    list-style:none;
+}
+
+nav > ul{
+    height: 4em;
+    background: #383838;
+    border-bottom: 5px solid #1ba1e2;
+}
+
+nav > ul > li{
+    float: right;
+}
+
+nav > ul > li > a{
+    height: 55px;
+    display: block;
+    padding: 20px 50px 23px 50px;
+    text-decoration: none;
+    color: #FEFEFE;
+    /*border-right: 1px solid #585858;*/
+}
+
+nav > ul > li > a:hover{
+    background: #1ba1e2;
+}
+
+.cta{
+    height: 500px;
+
+    background: url(http://i.imgur.com/xv2M0Aq.jpg) no-repeat center fixed;
+
+}
+
+.content{
+    border-top: 5px #1ba1e2 solid;
+    border-radius: 5px;
+    position: relative;
+    z-index: 10;
+    top: -90px;
+    margin: 0 auto;
+    height: 500px;
+    width: 960px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.45);
+}
+
+.ul-projects{
+    list-style: none;
+}
+
+.ul-projects li{
+    text-align: center;
+    border: 1px gray solid;
+    margin: 3% auto;
+    display: block;
+    width: 90%;
+    height: 30px;
+}
+
+.ul-projects li:hover{
+    border: 1px #1ba1e2 solid;
+}
