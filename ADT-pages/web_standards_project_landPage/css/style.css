@@ -82,7 +82,8 @@ nav > ul > li > a:hover{
     margin: 3% auto;
     display: block;
     width: 90%;
-    height: 30px;
+    height: auto;
+    padding: 1%;
 }
 
 .ul-projects li:hover{
