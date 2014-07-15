@@ -1,0 +1,863 @@
+/*  PageFrame - Font-end development framework to help build sites, based off a Metro Design Style by Chris Sevilleja & Google's Web Starter Kit Team.
+    This was started mainly for learning and personal purposes.
+        Created By: Don Page
+        Don.page.work@gmail.com
+        @DonRPage
+*/
+/*--------------------------------------Start CSS Index---------------------------------------------
+
+$Global - resets & defaults
+$Text - 	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:300,400,700,400italic"><!-- Fallback to Lato if Segoe UI is not on user's computer -->
+$Color - say no to 255.
+$Form -
+$Messages - error, success, and warning.
+$Navigation -
+
+-----------------------------------------End CSS Index-----------------------------------------------*/
+
+
+
+/* $GLOBAL */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box
+}
+
+html {
+    overflow-y: scroll;
+}
+
+ul, ol {
+    list-style-position: inside;
+}
+
+html, body, button, input, select, textarea {
+    color: #4d4d4d;
+    font-family: 'Segoe UI', 'Lato', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+/* $TEXT */
+p {
+    margin: 10px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Segoe UI Light', 'Lato', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+h1 small, h2 small, h3 small, h4 small, h5 small {
+    color: #ccc;
+}
+
+h1 {
+    color: #000;
+    font-size: 315%;
+}
+
+h2 {
+    color: #000;
+    font-size: 260%;
+}
+
+h3 {
+    color: #262626;
+    font-size: 190%;
+}
+
+h4 {
+    color: #262626;
+    font-size: 160%;
+}
+
+h5 {
+    color: #262626;
+    font-size: 120%;
+}
+
+h6 {
+    color: #262626;
+    font-size: 100%;
+}
+
+::selection {
+    background-color: #447099;
+    color: #fff;
+    text-shadow: none;
+}
+
+::-moz-selection {
+    background-color: #447099;
+    color: #fff;
+    text-shadow: none
+}
+
+em, i {
+    font-style: italic;
+}
+
+b, strong {
+    color: #000;
+}
+
+a {
+    outline: 0;
+}
+
+a {
+    color: #227bd4;
+}
+
+a:hover {
+    cursor: pointer;
+    color: #175592;
+}
+
+a:active {
+    color: #5da1e5;
+}
+
+a:link {
+    -webkit-tap-highlight-color: #5da1e5;
+}
+
+.text-left {
+    text-align: left
+}
+
+.text-center {
+    text-align: center
+}
+
+.text-right {
+    text-align: right
+}
+
+/* $COLOR */
+.color-white {
+    color: #fff;
+}
+
+.color-black {
+    color: #000;
+}
+
+.color-etch-pink{
+    color: #ff6666;
+}
+
+.color-magenta {
+    color: #ff0097;
+}
+
+.color-purple {
+    color: #a200ff;
+}
+
+.color-rebecca-purple{
+    color: #663399;
+}
+
+.color-teal {
+    color: #00aba9;
+}
+
+.color-lime {
+    color: #8cbf26;
+}
+
+.color-brown {
+    color: #a05000;
+}
+
+.color-pink {
+    color: #e671b8;
+}
+
+.color-mango {
+    color: #f09609;
+}
+
+.color-blue {
+    color: #1ba1e2;
+}
+
+.color-red {
+    color: #e51400;
+}
+
+.color-green {
+    color: #393;
+}
+
+.color-magenta-light {
+    color: #ff0097;
+}
+
+.color-purple-light {
+    color: #a200ff;
+}
+
+.color-teal-light {
+    color: #00aba9;
+}
+
+.color-lime-light {
+    color: #8cbf26;
+}
+
+.color-brown-light {
+    color: #a05000;
+}
+
+.color-pink-light {
+    color: #e671b8;
+}
+
+.color-mango-light {
+    color: #f09609;
+}
+
+.color-blue-light {
+    color: #1ba1e2;
+}
+
+.color-red-light {
+    color: #e51400;
+}
+
+.color-green-light {
+    color: #393;
+}
+
+.background-white {
+    background: #fff;
+}
+
+.background-black {
+    background: #000;
+}
+
+.background-gray {
+    background: #ccc;
+}
+
+.background-grayLight {
+    background: #d9d9d9;
+}
+
+.background-grayLighter {
+    background: #e6e6e6;
+}
+
+.background-grayLightest {
+    background: #f2f2f2;
+}
+
+.background-grayDark {
+    background: #b3b3b3;
+}
+
+.background-grayDarker {
+    background: #8c8c8c;
+}
+
+.background-grayDarkest {
+    background: #4d4d4d;
+}
+
+.background-magenta {
+    background: #ff0097;
+}
+
+.background-purple {
+    background: #a200ff;
+}
+
+.background-rebecca-purple {
+    background: #663399;
+}
+
+.background-teal {
+    background: #00aba9;
+}
+
+.background-lime {
+    background: #8cbf26;
+}
+
+.background-brown {
+    background: #a05000;
+}
+
+.background-pink {
+    background: #e671b8;
+}
+
+.background-mango {
+    background: #f09609;
+}
+
+.background-blue {
+    background: #1ba1e2;
+}
+
+.background-red {
+    background: #e51400;
+}
+
+.background-green {
+    background: #393;
+}
+
+.background-magenta-light {
+    background: #ff0097;
+}
+
+.background-purple-light {
+    background: #a200ff;
+}
+
+.background-teal-light {
+    background: #00aba9;
+}
+
+.background-lime-light {
+    background: #8cbf26;
+}
+
+.background-brown-light {
+    background: #a05000;
+}
+
+.background-pink-light {
+    background: #e671b8;
+}
+
+.background-mango-light {
+    background: #f09609;
+}
+
+.background-blue-light {
+    background: #1ba1e2;
+}
+
+.background-red-light {
+    background: #e51400;
+}
+
+.background-green-light {
+    background: #393;
+}
+
+/* $Form */
+label {
+    cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+    color: #ccc;
+}
+
+input:-moz-placeholder {
+    box-shadow: none !important;
+    color: #ccc;
+}
+
+textarea:-moz-placeholder {
+    color: #ccc;
+}
+
+.form textarea, .form input[type="text"], .form input[type="password"], .form input[type="datetime"], .form input[type="datetime-local"], .form input[type="date"], .form input[type="month"], .form input[type="time"], .form input[type="week"], .form input[type="number"], .form input[type="email"], .form input[type="url"], .form input[type="search"], .form input[type="tel"], .form input[type="color"] {
+    background: #f2f2f2;
+    border: 2px solid #1ba1e2;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    padding: 7px 14px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    -o-transition: all .2s ease
+}
+
+.form textarea:hover, .form input[type="text"]:hover, .form input[type="password"]:hover, .form input[type="datetime"]:hover, .form input[type="datetime-local"]:hover, .form input[type="date"]:hover, .form input[type="month"]:hover, .form input[type="time"]:hover, .form input[type="week"]:hover, .form input[type="number"]:hover, .form input[type="email"]:hover, .form input[type="url"]:hover, .form input[type="search"]:hover, .form input[type="tel"]:hover, .form input[type="color"]:hover {
+    outline: 0
+}
+
+.form textarea:focus, .form input[type="text"]:focus, .form input[type="password"]:focus, .form input[type="datetime"]:focus, .form input[type="datetime-local"]:focus, .form input[type="date"]:focus, .form input[type="month"]:focus, .form input[type="time"]:focus, .form input[type="week"]:focus, .form input[type="number"]:focus, .form input[type="email"]:focus, .form input[type="url"]:focus, .form input[type="search"]:focus, .form input[type="tel"]:focus, .form input[type="color"]:focus {
+    outline: 0
+}
+
+.form input[type=submit] {
+    background: #1ba1e2;
+    border: 0;
+    color: #fff;
+    font-size: 90%;
+    margin: 5px 0;
+    padding: 7px 14px;
+    transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    -o-transition: all .2s ease
+}
+
+.form input[type=submit]:hover {
+    cursor: pointer;
+    background: #29b4f8;
+}
+
+.form input[type=submit]:focus {
+    outline: 0;
+}
+
+.form textarea {
+    min-height: 70px;
+}
+
+.form label {
+    line-height: 1;
+}
+
+.form input[type=checkbox] {
+    cursor: pointer;
+    height: 15px;
+    float: left;
+    width: 15px;
+    margin: 0;
+    padding: 0
+}
+
+.input-small {
+    width: 80px;
+}
+
+.input-medium {
+    width: 100px;
+}
+
+.input-large {
+    width: 200px;
+}
+
+.input-supersize {
+    width: 500px;
+}
+
+.checkbox-button {
+    position: relative;
+    vertical-align: middle
+}
+
+.checkbox-button input, .checkbox-button span {
+    height: 13px;
+    width: 13px
+}
+
+.checkbox-button input {
+    top: 2px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    z-index: 100;
+    position: absolute
+}
+
+.checkbox-button span {
+    border: 1px solid black;
+    display: inline-block;
+    padding: 2px;
+    position: relative
+}
+
+.checkbox-button input:checked ~ span:after {
+    content: '';
+    position: absolute;
+    background: #1ba1e2;
+    height: 80%;
+    width: 85%;
+    top: 10%;
+    left: 5%
+}
+
+.checkbox-button label {
+    display: inline-block
+}
+
+.checkbox-round {
+    position: relative;
+    vertical-align: middle
+}
+
+.checkbox-round input, .checkbox-round span {
+    height: 13px;
+    width: 13px
+}
+
+.checkbox-round input {
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 2px
+}
+
+.radio-button {
+    border: 1px solid #ccc;
+    float: left;
+    height: 42px;
+    position: relative;
+    vertical-align: middle
+}
+
+.radio-button input, .radio-button span {
+    height: 40px;
+    width: 100px
+}
+
+.radio-button input {
+    cursor: pointer;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100
+}
+
+.radio-button span {
+    background: #f2f2f2;
+    background: linear-gradient(to bottom, #f2f2f2 0, #e6e6e6 100%);
+    background: -moz-linear-gradient(top, #f2f2f2 0, #e6e6e6 100%);
+    background: -ms-linear-gradient(top, #f2f2f2 0, #e6e6e6 100%);
+    background: -o-linear-gradient(top, #f2f2f2 0, #e6e6e6 100%);
+    background: -webkit-linear-gradient(top, #f2f2f2 0, #e6e6e6 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f2f2f2), color-stop(100%, #e6e6e6));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2f2f2', endColorstr='#e6e6e6', GradientType=0);
+    display: inline-block;
+    position: relative
+}
+
+.radio-button label {
+    left: 18%;
+    position: absolute;
+    top: 30%
+}
+
+.radio-button input:checked ~ span {
+    background: #e6e6e6;
+    background: linear-gradient(to bottom, #e6e6e6 0, #f2f2f2 100%);
+    background: -moz-linear-gradient(top, #e6e6e6 0, #f2f2f2 100%);
+    background: -ms-linear-gradient(top, #e6e6e6 0, #f2f2f2 100%);
+    background: -o-linear-gradient(top, #e6e6e6 0, #f2f2f2 100%);
+    background: -webkit-linear-gradient(top, #e6e6e6 0, #f2f2f2 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e6e6e6), color-stop(100%, #f2f2f2));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e6e6e6', endColorstr='#f2f2f2', GradientType=0);
+    box-shadow: inset 2px 2px 2px #ccc 0;
+    -moz-box-shadow: inset 2px 2px 2px #ccc 0;
+    -webkit-box-shadow: inset 2px 2px 2px #ccc 0
+}
+
+button {
+    background: #1ba1e2;
+    border: 0;
+    color: #fff;
+    font-size: 90%;
+    padding: 5px 12px;
+}
+
+button:hover {
+    cursor: pointer;
+    background: #29b4f8;
+}
+
+.button-mini {
+    font-size: 75%;
+    padding: 2px 5px;
+}
+
+.button-small {
+    font-size: 90%;
+    padding: 5px 12px;
+}
+
+.button-medium {
+    font-size: 100%;
+    padding: 10px 15px;
+}
+
+.button-large {
+    font-size: 125%;
+    padding: 15px 30px;
+}
+
+.button-supersize {
+    font-size: 200%;
+    padding: 30px 60px;
+}
+
+input.background-white, button.background-white {
+    background: #fff
+}
+
+input.background-magenta, button.background-magenta {
+    background: #ff0097
+}
+
+input.background-purple, button.background-purple {
+    background: #a200ff
+}
+
+input.background-rebecca-purple, button.background-rebecca-purple {
+    background: #663399
+}
+
+input.background-teal, button.background-teal {
+    background: #00aba9
+}
+
+input.background-lime, button.background-lime {
+    background: #8cbf26
+}
+
+input.background-brown, button.background-brown {
+    background: #a05000
+}
+
+input.background-pink, button.background-pink {
+    background: #e671b8
+}
+
+input.background-mango, button.background-mango {
+    background: #f09609
+}
+
+input.background-blue, button.background-blue {
+    background: #1ba1e2
+}
+
+input.background-red, button.background-red {
+    background: #e51400
+}
+
+input.background-green, button.background-green {
+    background: #393
+}
+
+input.background-magenta:hover, button.background-magenta:hover {
+    background: #ff41b2
+}
+
+input.background-purple:hover, button.background-purple:hover {
+    background: #bb46ff
+}
+
+input.background-teal:hover, button.background-teal:hover {
+    background: #14d8d6
+}
+
+input.background-lime:hover, button.background-lime:hover {
+    background: #a9e13a
+}
+
+input.background-brown:hover, button.background-brown:hover {
+    background: #bf650b
+}
+
+input.background-pink:hover, button.background-pink:hover {
+    background: #f68acc
+}
+
+input.background-mango:hover, button.background-mango:hover {
+    background: #f6a931
+}
+
+input.background-blue:hover, button.background-blue:hover {
+    background: #29b4f8
+}
+
+input.background-red:hover, button.background-red:hover {
+    background: #fe4432
+}
+
+input.background-green:hover, button.background-green:hover {
+    background: #4fc24f
+}
+
+/* $MESSAGES */
+.success {
+    background: #4fc24f
+}
+
+.warning {
+    background: #f6a931
+}
+
+.error {
+    background: #fe4432
+}
+
+.message {
+    background: #e51400;
+    color: #FFF;
+    display: block;
+    font-size: 110%;
+    margin: 0 auto;
+    padding: 10px 0;
+    position: fixed;
+    text-align: center;
+    z-index: 9999;
+    width: 100%
+}
+
+.message.success {
+    background: #53c653
+}
+
+.message.warning {
+    background: #f8b64d
+}
+
+.message.error {
+    background: #ff4432
+}
+
+.message p:last-child {
+    padding-bottom: 0
+}
+
+.message-close {
+    display: block;
+    font-size: 375%;
+    position: absolute;
+    right: 6%;
+    text-decoration: none;
+    top: 6%
+}
+
+.message.success .message-close {
+    color: #267326
+}
+
+.message.error .message-close {
+    color: #990d00
+}
+
+/* $NAVIGATION */
+/*nav ul{*/
+    /*list-style:none;*/
+/*}*/
+
+/*.nav-horizontal li{*/
+    /*float: left;*/
+    /*position: relative;*/
+/*}*/
+
+/*.nav-horizontal li:hover > a{*/
+    /*background: #29b4f8;*/
+/*}*/
+
+/*.nav-horizontal a{*/
+    /*display: block;*/
+    /*padding: 10px 20px;*/
+    /*text-decoration: none;*/
+/*}*/
+
+/*.nav-horizontal li:hover > ul{*/
+    /*display: block;*/
+/*}*/
+
+/*.nav-horizontal li ul{*/
+    /*background: #4d4d4d;*/
+    /*display: none;*/
+    /*position: absolute;*/
+    /*z-index: 9000;*/
+/*}*/
+
+/*.nav-horizontal li ul li{*/
+    /*display: block;*/
+    /*float: none;*/
+/*}*/
+
+/*.nav-horizontal li ul a{*/
+    /*height: auto;*/
+/*}*/
+
+/*.nav-slider {*/
+    /*background: #f2f2f2;*/
+    /**zoom: 1;*/
+/*}*/
+
+/*.nav-slider:before, .nav-slider:after {*/
+    /*content: '';*/
+    /*display: table*/
+/*}*/
+
+/*.nav-slider:after {*/
+    /*clear: both*/
+/*}*/
+
+/*.nav-slider > ul {*/
+    /*position: relative*/
+/*}*/
+
+/*.nav-slider li {*/
+    /*float: left;*/
+    /*padding: 15px*/
+/*}*/
+
+/*.nav-slider li ul {*/
+    /*background: #e6e6e6;*/
+    /*height: 0;*/
+    /*left: 0;*/
+    /*width: 100%*/
+/*}*/
+
+/*.nav-slider li ul li {*/
+    /*float: left;*/
+/*}*/
+
+/*.nav-fixed {*/
+    /*position: fixed*/
+/*}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
