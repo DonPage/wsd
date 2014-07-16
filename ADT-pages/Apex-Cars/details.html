@@ -15,9 +15,46 @@
 </head>
 <body>
 
+
 <nav class="clearfix">
+    <div class="hidden-nav">
+
+        <div class="container">
+            <div class="">
+
+                <form class="">
+
+                    <!--<div class="group col-sm-12">-->
+                    <!--<input type="text" pattern=".{1,80}" required>-->
+                    <!--<span class="highlight"></span>-->
+                    <!--<span class="bar"></span>-->
+                    <!--<label>Name</label>-->
+                    <!--</div>-->
+
+                    <div class="group col-sm-12">
+                        <input type="text"
+                               pattern="[a-zA-Z0-9_]+(?:\.[A-Za-z0-9!#$%&amp;'*+/=?^_`{|}~-]+)*@(?!([a-zA-Z0-9]*\.[a-zA-Z0-9]*\.[a-zA-Z0-9]*\.))(?:[A-Za-z0-9](?:[a-zA-Z0-9-]*[A-Za-z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?"
+                               required>
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label>Email</label>
+                    </div>
+
+                    <div class="group col-sm-12">
+                        <input type="password" pattern=".{1,80}" required>
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label class="text-center">Password</label>
+                    </div>
+                    <button class="button-large login-btn">Login</button>
+                </form>
+
+            </div>
+
+        </div>
+    </div>
     <ul>
-        <li><a href="#"> <span>☰</span></a></li>
+        <li><a href="#"> <span class="ham-btn">☰</span></a></li>
     </ul>
 </nav>
 
@@ -35,10 +72,16 @@
         </div>
     </div>
 
+    <div class="container">
+        <table class="table-responsive">
+
+        </table>
+    </div>
+
 </div>
 
 <footer class="container">
-    <h3 class="text-center">Apex Cars Inc 2014</h3>
+    <p class="text-center">© Copyright 2013 - 2014, Sweet Car Rentals, LLC - Miami FL </p>
 </footer>
 
 <!-- SCRIPTS -->

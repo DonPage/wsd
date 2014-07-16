@@ -13,9 +13,46 @@
 
 </head>
 <body>
+
 <nav class="clearfix">
+    <div class="hidden-nav">
+
+        <div class="container">
+            <div class="">
+
+                <form class="">
+
+                    <!--<div class="group col-sm-12">-->
+                    <!--<input type="text" pattern=".{1,80}" required>-->
+                    <!--<span class="highlight"></span>-->
+                    <!--<span class="bar"></span>-->
+                    <!--<label>Name</label>-->
+                    <!--</div>-->
+
+                    <div class="group col-sm-12">
+                        <input type="text"
+                               pattern="[a-zA-Z0-9_]+(?:\.[A-Za-z0-9!#$%&amp;'*+/=?^_`{|}~-]+)*@(?!([a-zA-Z0-9]*\.[a-zA-Z0-9]*\.[a-zA-Z0-9]*\.))(?:[A-Za-z0-9](?:[a-zA-Z0-9-]*[A-Za-z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?"
+                               required>
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label>Email</label>
+                    </div>
+
+                    <div class="group col-sm-12">
+                        <input type="password" pattern=".{1,80}" required>
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label class="text-center">Password</label>
+                    </div>
+                    <button class="button-large login-btn">Login</button>
+                </form>
+
+            </div>
+
+        </div>
+    </div>
     <ul>
-        <li><a href="#"> <span>☰</span></a></li>
+        <li><a href="#"> <span class="ham-btn">☰</span></a></li>
     </ul>
 </nav>
 
@@ -30,7 +67,6 @@
         <p>something</p>
     </div>
     <div class="overlay">
-
     </div>
     <section class="car-browse container">
 
@@ -125,12 +161,6 @@
 
 
 
-        <!--<div class="car-content clearfix">-->
-            <!--<div class="car-image"><img class="car-image img-responsive" src="images/car1.jpg"></div>-->
-            <!--<h4 class="car-name">Lamborghini Murcielago LP640</h4>-->
-            <!--<h4 class="car-price">$271 /h</h4>-->
-            <!--<p class="small-description">An absolute monster. Frighteningly fast, powerful and, of course, doors that go up.</p>-->
-        <!--</div>-->
         <div class="car-content">
             <div class="pull-left img-left">
                 <div class="car-image"><img class="car-image img-responsive" src="images/car1.jpg"></div>
@@ -223,7 +253,7 @@
 
 
 <footer class="container">
-    <h3 class="text-center">Apex Cars Inc 2014</h3>
+    <p class="text-center">© Copyright 2013 - 2014, Sweet Car Rentals, LLC - Miami FL </p>
 </footer>
 
 

@@ -4,19 +4,18 @@
         @DonRPage
  */
 
-body{
+body {
     overflow-x: hidden;
 }
 
-nav{
+nav {
     position: relative;
     z-index: 900;
-    height: 5em;
     width: 100%;
     background: #4e4e4e;
 }
 
-nav ul{
+nav ul {
     padding: 5%;
     text-align: center;
     width: 100%;
@@ -24,12 +23,24 @@ nav ul{
     list-style: none;
 }
 
-nav ul li{
+.hidden-nav {
+    padding-top: 10%;
+    background: white;
+    width: 100%;
+    position: relative;
+    height: 500px;
+}
+
+.login-btn{
+    width: 100%;
+}
+
+nav ul li {
     display: inline;
     /*padding: 4em 20% 0;*/
 }
 
-nav ul li a{
+nav ul li a {
     color: #eee;
     position: relative;
     margin-top: 3em;
@@ -37,79 +48,84 @@ nav ul li a{
     top: -3em;
 }
 
-nav ul li span{
+nav ul li span {
     top: -11px;
     color: #eee;
     font-size: 2em;
     position: absolute;
 }
 
-.honey-gallery{
+.honey-gallery {
+
     position: relative;
     width: 100%;
     height: auto;
     margin: 0 auto;
 }
 
-#honey{
+#honey {
     width: 100%;
     max-width: 100%;
     height: auto;
     margin: 0 auto;
 }
 
-footer{
+footer {
     width: 100%;
     height: auto;
-    background: #d8d8d8;
+    background: #b4b4b4;
     color: white;
-    margin-top: 1em;
-    padding: 5em;
+    padding: 8em;
     text-align: center;
+    background: url('../images/svg-honey.png') no-repeat;
+    background-size: 100% auto;
 }
 
-.content{
+footer p{
+    color: #eee;
+}
+
+.content {
     width: 100%;
     background: #eee;
     height: 100%;
 }
 
-.details-image{
+.details-image {
     width: 100%;
     height: auto;
 }
 
-.details-car-name{
+.details-car-name {
     text-align: center;
 }
 
-.img-left{
+.img-left {
     position: absolute;
     max-width: 200px;
     max-height: 100%;
 }
 
-.right-content{
+.right-content {
     padding: 5px;
     margin-left: 200px;
 }
 
-.small-description, .car-price, .car-name{
+.small-description, .car-price, .car-name {
     text-align: right;
 }
 
-.car-content{
+.car-content {
     margin-top: 4em;
-    float: left;
     height: auto;
-    width: auto;
+    width: 100%;
     background: #f9f9f9;
     border-top: 5px solid #eee;
     border-bottom: 1px solid #e0e0e0;
     text-align: center;
 }
 
-img{
+img {
     display: inline;
     float: left;
     height: auto;
@@ -118,7 +134,7 @@ img{
     max-height: 100%;
 }
 
-.filter-btn{
+.filter-btn {
     border-top-left-radius: 9px;
     border-bottom-left-radius: 9px;
     z-index: 100;
@@ -128,20 +144,18 @@ img{
     outline: none;
 }
 
-
-
-.l-btn{
+.l-btn {
     width: 75%;
     border-top-left-radius: 19px;
     border-bottom-left-radius: 19px;
 }
 
-.r-btn{
+.r-btn {
     border-top-right-radius: 19px;
     border-bottom-right-radius: 19px;
 }
 
-.filter-sidebar{
+.filter-sidebar {
     background: deepskyblue;
     position: absolute;
     right: -300px;
@@ -150,7 +164,7 @@ img{
     z-index: 20;
 }
 
-#browse-container{
+#browse-container {
     width: 100%;
     background: white;
     -webkit-transform: translateX(0px);
@@ -159,12 +173,12 @@ img{
     transition: .3 ease all;
 }
 
-#browse-container.show-filter{
+#browse-container.show-filter {
     -webkit-transform: translateX(-300px);
     transform: translateX(-300px);
 }
 
-.overlay{
+.overlay {
     visibility: hidden;
     background-color: rgba(0, 0, 0, 0.40);
     width: 100%;
@@ -173,39 +187,162 @@ img{
     z-index: 10;
 }
 
-#mid-mid{
+#mid-mid {
     fill: url("#mid-mid-car");
 }
 
-
 /*#mid-mid:hover{*/
-    /*-webkit-transform: translateY(0px);*/
-    /*-webkit-animation: bounce 1.6s infinite ease;*/
+/*-webkit-transform: translateY(0px);*/
+/*-webkit-animation: bounce 1.6s infinite ease;*/
 /*}*/
 
-
-.svg-honey{
+.svg-honey {
     stroke: gray;
 
 }
 
-.svg-honey:hover{
+.svg-honey:hover {
 
     cursor: pointer;
     stroke: black;
 }
 
-
-
 @-webkit-keyframes bounce {
-    0%{
+    0% {
         -webkit-transform: translateY(10px);
     }
-    50%{
+    50% {
         -webkit-transform: translateY(-10px);
     }
-    100%{
+    100% {
         -webkit-transform: translateY(10px);
+    }
+}
+
+/*Inputs ******************
+***************************/
+
+
+/* form starting stylings ------------------------------- */
+.group {
+    position: relative;
+    margin-bottom: 45px;
+}
+
+label {
+    color: #999;
+    font-size: 18px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 15px;
+    top: 10px;
+    transition: 0.2s ease all;
+}
+
+input {
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #757575;
+}
+
+input:focus {
+    outline: none;
+}
+
+input:valid {
+    border-bottom: 1px solid #4fc24f;
+}
+
+/* BOTTOM BARS ================================= */
+.bar {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.bar:before, .bar:after {
+    content: '';
+    height: 2px;
+    width: 0;
+    bottom: 1px;
+    position: absolute;
+    background: #5264AE;
+    transition: 0.2s ease all;
+}
+
+.bar:before {
+    left: 50%;
+}
+
+.bar:after {
+    right: 50%;
+}
+
+input:valid ~ .bar:before, input:valid ~ .bar:after {
+    background: #4fc24f !important;
+}
+
+/* HIGHLIGHTER ================================== */
+.highlight {
+    position: absolute;
+    height: 60%;
+    width: 100px;
+    top: 25%;
+    left: 0;
+    pointer-events: none;
+    transition: 0.2s ease all;
+    opacity: 0.5;
+}
+
+/* active state -------------------------------------------- */
+input:focus ~ label, input.used ~ label {
+    top: -20px;
+    font-size: 14px;
+    color: #5264AE;
+}
+
+input:valid ~ label, input:valid.used ~ label {
+    color: #4fc24f;
+}
+
+input:focus ~ .bar:before {
+    width: 50%;
+}
+
+input:focus ~ .bar:after {
+    width: 50%;
+}
+
+input:focus ~ .highlight {
+    -webkit-animation: inputHighlighter 0.3s ease;
+}
+
+input:valid ~ .hightlight {
+    -webkit-animation: validHighlighter 0.3s ease;
+}
+
+/* ANIMATIONS ================ */
+@-webkit-keyframes inputHighlighter {
+    from {
+        background: #5264AE;
+    }
+    to {
+        width: 0;
+        background: transparent;
+    }
+}
+
+@-webkit-keyframes validHighlighter {
+    from {
+        background: #4fc24f !important;
+    }
+    to {
+        width: 0;
+        background: transparent;
     }
 }
 
@@ -213,8 +350,8 @@ img{
 @media (max-width: 450px) {
 
     /*img{*/
-        /*max-width: 330px;*/
-        /*display: block;*/
+    /*max-width: 330px;*/
+    /*display: block;*/
     /*}*/
 
 }
