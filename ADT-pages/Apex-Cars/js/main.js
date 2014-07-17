@@ -53,5 +53,9 @@ $(document).ready(function (e) {
             $(this).removeClass('used');
     });
 
+    $('.car-content').on('click', function(){
+        window.location('')
+    })
+
 });
 
