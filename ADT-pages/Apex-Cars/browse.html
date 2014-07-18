@@ -7,7 +7,9 @@
     <meta name="author" content="Don Page">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--<link rel="stylesheet" href="css/normalize.css">-->
+    <link href="css/jquery-ui.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--<link rel="stylesheet" href="css/bootstrap-theme.min.css">-->
     <link rel="stylesheet" href="css/pageframe.css">
     <link rel="stylesheet" href="css/main.css">
 
@@ -32,18 +34,19 @@
 
                     <div class="group col-sm-12">
                         <input type="text"
+                               class="go"
                                pattern="[a-zA-Z0-9_]+(?:\.[A-Za-z0-9!#$%&amp;'*+/=?^_`{|}~-]+)*@(?!([a-zA-Z0-9]*\.[a-zA-Z0-9]*\.[a-zA-Z0-9]*\.))(?:[A-Za-z0-9](?:[a-zA-Z0-9-]*[A-Za-z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?"
                                required>
                         <span class="highlight"></span>
                         <span class="bar"></span>
-                        <label>Email</label>
+                        <label class="g">Email</label>
                     </div>
 
                     <div class="group col-sm-12">
-                        <input type="password" pattern=".{1,80}" required>
+                        <input class="go" type="password" pattern=".{1,80}" required>
                         <span class="highlight"></span>
                         <span class="bar"></span>
-                        <label class="text-center">Password</label>
+                        <label class="g text-center">Password</label>
                     </div>
                     <button class="button-large login-btn">Login</button>
                 </form>
@@ -56,17 +59,86 @@
         <li><a href="#"> <span class="ham-btn">☰</span></a></li>
     </ul>
 </nav>
+
+
 <div class="breadcrumb">
-    <p>home / <span class="color-mango-light">browse</span></p>
+    <p><a href="index.html"><span class="icon-home"></span> </a>/ <span class="color-mango-light">browse</span></p>
 </div>
 
 
 <div id="browse-container">
     <div class=" ">
-        <button class="pull-right filter-btn button-large">filter</button>
+        <button class="pull-right filter-btn button-large background-blue-light">filter</button>
     </div>
-    <div class="filter-sidebar">
-        <p>something</p>
+    <div class="filter-sidebar background-blue-light">
+        <div class="filter-content">
+            <div class="container-fluid">
+                <form class="navbar-form navbar-left" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default btn-search">Submit</button>
+                </form>
+                <h3>Categories</h3>
+                <div id="accordion">
+                    <h3>Type</h3>
+                    <div>
+                        <form>
+                            <input id="r-sports" type="checkbox">
+                            <label for="r-sports">Sports</label>
+                            <input id="r-luxury" type="checkbox">
+                            <label for="r-luxury">Luxury</label>
+                        </form>
+
+                    </div>
+                    <h3>Company</h3>
+                    <div>
+                        <div class="dropdown">
+                            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+                                Dropdown
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Benrley</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Ferrari</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Lamborghini</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Maserati</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Mclaren</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Mercedes</a></li>
+
+
+
+                            </ul>
+                        </div>
+                    </div>
+                    <h3>Price</h3>
+                    <div>
+                        <p>
+                            <label for="amount">Price range:</label>
+                            <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
+                        </p>
+
+                        <div id="slider-range"></div>
+
+                    </div>
+                    <!--<h3>Section 4</h3>-->
+                    <!--<div>-->
+                        <!--<p>-->
+                            <!--Cras dictum. Pellentesque habitant morbi tristique senectus et netus-->
+                            <!--et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in-->
+                            <!--faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia-->
+                            <!--mauris vel est.-->
+                        <!--</p>-->
+                        <!--<p>-->
+                            <!--Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.-->
+                            <!--Class aptent taciti sociosqu ad litora torquent per conubia nostra, per-->
+                            <!--inceptos himenaeos.-->
+                        <!--</p>-->
+                    <!--</div>-->
+                </div>
+            </div>
+        </div>
+
     </div>
     <div class="overlay">
     </div>
@@ -101,16 +173,16 @@
                 <div class="col-xs-5 col-md-4">
                     <img class="img-responsive" src="images/car1.jpg" alt="car">
                 </div>
-                <div class="col-xs-7 col-md-5">
-                    <h4 class="car-name">Bentley Continetal GT <span class="pull-right">$221.00 /h</span></h4>
+                <div class="col-xs-7 col-md-5" style="height: 240px">
+                    <h4 class="car-name ">Bentley Continetal GT <span class="pull-right">$221.00 /h</span></h4>
 
                     <p class="small-description">Comfort, power, and the wind in your hair. Sublime excitement. </p>
 
                     <div class="pull-right hidden-lg">
-                        <a href="details.html"><button class="button-large l-btn">Details</button></a><button class="background-mango-light r-btn button-large">Star</button>
+                        <a href="details.html"><button class="button-large l-btn">Details</button></a><button class="background-mango-light r-btn button-large"><span class="icon-heart"></span></button>
                     </div>
-                    <div class="pull-right visible-lg">
-                        <button class="button-medium l-btn">Details</button><button class="background-mango-light r-btn button-medium">Star</button>
+                    <div class="pull-right desktop-browse-btn visible-lg">
+                        <button class="button-medium l-btn">Details</button><button class="background-mango-light r-btn button-medium"><span class="icon-heart"></span></button>
                     </div>
                 </div>
             </div>
@@ -120,16 +192,16 @@
                 <div class="col-xs-5 col-md-4">
                     <img class="img-responsive" src="images/car1.jpg" alt="car">
                 </div>
-                <div class="col-xs-7 col-md-5">
+                <div class="col-xs-7 col-md-5" style="height: 240px">
                     <h4 class="car-name">Ferrari 485 Italia <span class="pull-right">$239.00 /h</span></h4>
 
                     <p class="small-description"> The best car Ferrari has ever made period.</p>
 
                     <div class="pull-right hidden-lg">
-                        <button class="button-large l-btn">Details</button><button class="background-mango-light r-btn button-large">Star</button>
+                        <button class="button-large l-btn">Details</button><button class="background-mango-light r-btn button-large"><span class="icon-heart"></span></button>
                     </div>
-                    <div class="pull-right visible-lg">
-                        <button class="button-medium l-btn">Details</button><button class="background-mango-light r-btn button-medium">Star</button>
+                    <div class="pull-right desktop-browse-btn visible-lg">
+                        <button class="button-medium l-btn">Details</button><button class="background-mango-light r-btn button-medium"><span class="icon-heart"></span></button>
                     </div>
                 </div>
             </div>
@@ -139,16 +211,16 @@
                 <div class="col-xs-5 col-md-4">
                     <img class="img-responsive" src="images/car1.jpg" alt="car">
                 </div>
-                <div class="col-xs-7 col-md-5">
+                <div class="col-xs-7 col-md-5" style="height: 240px">
                     <h4 class="car-name">Ferrari 599 GTB <span class="pull-right">$241.00 /h</span></h4>
 
                     <p class="small-description">Magnificant F1-Inspired exotic sports car.</p>
 
                     <div class="pull-right hidden-lg">
-                        <button class="button-large l-btn">Details</button><button class="background-mango-light r-btn button-large">Star</button>
+                        <button class="button-large l-btn">Details</button><button class="background-mango-light r-btn button-large"><span class="icon-heart"></span></button>
                     </div>
-                    <div class="pull-right visible-lg">
-                        <button class="button-medium l-btn">Details</button><button class="background-mango-light r-btn button-medium">Star</button>
+                    <div class="pull-right desktop-browse-btn visible-lg">
+                        <button class="button-medium l-btn">Details</button><button class="background-mango-light r-btn button-medium"><span class="icon-heart"></span></button>
                     </div>
                 </div>
             </div>
@@ -158,16 +230,16 @@
                 <div class="col-xs-5 col-md-4">
                     <img class="img-responsive" src="images/car1.jpg" alt="car">
                 </div>
-                <div class="col-xs-7 col-md-5">
+                <div class="col-xs-7 col-md-5" style="height: 240px">
                     <h4 class="car-name">Lamborghini Gallardo <span class="pull-right">$200.00 /h</span></h4>
 
                     <p class="small-description">There's nothing "baby" about this amazing beast - pure Lamborghini.</p>
 
                     <div class="pull-right hidden-lg">
-                        <button class="button-large l-btn">Details</button><button class="background-mango-light r-btn button-large">Star</button>
+                        <button class="button-large l-btn">Details</button><button class="background-mango-light r-btn button-large"><span class="icon-heart"></span></button>
                     </div>
-                    <div class="pull-right visible-lg">
-                        <button class="button-medium l-btn">Details</button><button class="background-mango-light r-btn button-medium">Star</button>
+                    <div class="pull-right desktop-browse-btn visible-lg">
+                        <button class="button-medium l-btn">Details</button><button class="background-mango-light r-btn button-medium"><span class="icon-heart"></span></button>
                     </div>
                 </div>
             </div>
@@ -178,16 +250,16 @@
                 <div class="col-xs-5 col-md-4">
                     <img class="img-responsive" src="images/car1.jpg" alt="car">
                 </div>
-                <div class="col-xs-7 col-md-5">
+                <div class="col-xs-7 col-md-5" style="height: 240px">
                     <h4 class="car-name">Lamborghini LP560-4 Spyder <span class="pull-right">$210.00 /h</span></h4>
 
                     <p class="small-description">One of the most popular cars in our fleet. Exotic looks, power, and smooth driving.</p>
 
                     <div class="pull-right hidden-lg">
-                        <button class="button-large l-btn">Details</button><button class="background-mango-light r-btn button-large">Star</button>
+                        <button class="button-large l-btn">Details</button><button class="background-mango-light r-btn button-large"><span class="icon-heart"></span></button>
                     </div>
-                    <div class="pull-right visible-lg">
-                        <button class="button-medium l-btn">Details</button><button class="background-mango-light r-btn button-medium">Star</button>
+                    <div class="pull-right desktop-browse-btn visible-lg">
+                        <button class="button-medium l-btn">Details</button><button class="background-mango-light r-btn button-medium"><span class="icon-heart"></span></button>
                     </div>
                 </div>
             </div>
@@ -198,16 +270,16 @@
                 <div class="col-xs-5 col-md-4">
                     <img class="img-responsive" src="images/car1.jpg" alt="car">
                 </div>
-                <div class="col-xs-7 col-md-5">
+                <div class="col-xs-7 col-md-5" style="height: 240px">
                     <h4 class="car-name">Lamborghini Murcielago LP640 <span class="pull-right">$270.00 /h</span></h4>
 
                     <p class="small-description">An absolute monster. Frighteningly fast, powerful and, of course, doors that go up.</p>
 
                     <div class="pull-right hidden-lg">
-                        <button class="button-large l-btn">Details</button><button class="background-mango-light r-btn button-large">Star</button>
+                        <button class="button-large l-btn">Details</button><button class="background-mango-light r-btn button-large"><span class="icon-heart"></span></button>
                     </div>
-                    <div class="pull-right visible-lg">
-                        <button class="button-medium l-btn">Details</button><button class="background-mango-light r-btn button-medium">Star</button>
+                    <div class="pull-right desktop-browse-btn visible-lg">
+                        <button class="button-medium l-btn">Details</button><button class="background-mango-light r-btn button-medium"><span class="icon-heart"></span></button>
                     </div>
                 </div>
             </div>
@@ -219,16 +291,16 @@
                 <div class="col-xs-5 col-md-4">
                     <img class="img-responsive" src="images/car1.jpg" alt="car">
                 </div>
-                <div class="col-xs-7 col-md-5">
+                <div class="col-xs-7 col-md-5" style="height: 240px">
                     <h4 class="car-name">Maserati Ghibli <span class="pull-right">$241.00 /h</span></h4>
 
                     <p class="small-description">Designed by an F1 guru, built by Ferrari, and 100% Maserati. Style, comfort and performance all in a 5-seater.</p>
 
                     <div class="pull-right hidden-lg">
-                        <button class="button-large l-btn">Details</button><button class="background-mango-light r-btn button-large">Star</button>
+                        <button class="button-large l-btn">Details</button><button class="background-mango-light r-btn button-large"><span class="icon-heart"></span></button>
                     </div>
-                    <div class="pull-right visible-lg">
-                        <button class="button-medium l-btn">Details</button><button class="background-mango-light r-btn button-medium">Star</button>
+                    <div class="pull-right desktop-browse-btn visible-lg">
+                        <button class="button-medium l-btn">Details</button><button class="background-mango-light r-btn button-medium"><span class="icon-heart"></span></button>
                     </div>
                 </div>
             </div>
@@ -239,16 +311,16 @@
                 <div class="col-xs-5 col-md-4">
                     <img class="img-responsive" src="images/car1.jpg" alt="car">
                 </div>
-                <div class="col-xs-7 col-md-5">
+                <div class="col-xs-7 col-md-5" style="height: 240px">
                     <h4 class="car-name">Maserati GranCario <span class="pull-right">$73.00 /h</span></h4>
 
                     <p class="small-description">Refined luxury witha  convertible top - drivable, powerful, comfortable, and FUN.</p>
 
                     <div class="pull-right hidden-lg">
-                        <button class="button-large l-btn">Details</button><button class="background-mango-light r-btn button-large">Star</button>
+                        <button class="button-large l-btn">Details</button><button class="background-mango-light r-btn button-large"><span class="icon-heart"></span></button>
                     </div>
-                    <div class="pull-right visible-lg">
-                        <button class="button-medium l-btn">Details</button><button class="background-mango-light r-btn button-medium">Star</button>
+                    <div class="pull-right desktop-browse-btn visible-lg">
+                        <button class="button-medium l-btn">Details</button><button class="background-mango-light r-btn button-medium"><span class="icon-heart"></span></button>
                     </div>
                 </div>
             </div>
@@ -259,16 +331,16 @@
                 <div class="col-xs-5 col-md-4">
                     <img class="img-responsive" src="images/car1.jpg" alt="car">
                 </div>
-                <div class="col-xs-7 col-md-5">
+                <div class="col-xs-7 col-md-5" style="height: 240px">
                     <h4 class="car-name">McLaren MP4 <span class="pull-right">$229.00 /h</span></h4>
 
                     <p class="small-description">The newest player in the game - an awesome technical accomplishment from the renowned F1 champ.</p>
 
                     <div class="pull-right hidden-lg">
-                        <button class="button-large l-btn">Details</button><button class="background-mango-light r-btn button-large">Star</button>
+                        <button class="button-large l-btn">Details</button><button class="background-mango-light r-btn button-large"><span class="icon-heart"></span></button>
                     </div>
-                    <div class="pull-right visible-lg">
-                        <button class="button-medium l-btn">Details</button><button class="background-mango-light r-btn button-medium">Star</button>
+                    <div class="pull-right desktop-browse-btn visible-lg">
+                        <button class="button-medium l-btn">Details</button><button class="background-mango-light r-btn button-medium"><span class="icon-heart"></span></button>
                     </div>
                 </div>
             </div>
@@ -279,16 +351,16 @@
                 <div class="col-xs-5 col-md-4">
                     <img class="img-responsive" src="images/car1.jpg" alt="car">
                 </div>
-                <div class="col-xs-7 col-md-5">
+                <div class="col-xs-7 col-md-5" style="height: 240px">
                     <h4 class="car-name">Mercedes-Benz SL63 <span class="pull-right">$103.00 /h</span></h4>
 
                     <p class="small-description">What Mercedes does best: A perfect blend of power, comfort, luxury, and convertible awesomeness.</p>
 
                     <div class="pull-right hidden-lg">
-                        <button class="button-large l-btn">Details</button><button class="background-mango-light r-btn button-large">Star</button>
+                        <button class="button-large l-btn">Details</button><button class="background-mango-light r-btn button-large"><span class="icon-heart"></span></button>
                     </div>
-                    <div class="pull-right visible-lg">
-                        <button class="button-medium l-btn">Details</button><button class="background-mango-light r-btn button-medium">Star</button>
+                    <div class="pull-right desktop-browse-btn visible-lg">
+                        <button class="button-medium l-btn">Details</button><button class="background-mango-light r-btn button-medium"><span class="icon-heart"></span></button>
                     </div>
                 </div>
             </div>
@@ -299,16 +371,16 @@
                 <div class="col-xs-5 col-md-4">
                     <img class="img-responsive" src="images/car1.jpg" alt="car">
                 </div>
-                <div class="col-xs-7 col-md-5">
+                <div class="col-xs-7 col-md-5" style="height: 240px">
                     <h4 class="car-name">Range Rover <span class="pull-right">$98.00 /h</span></h4>
 
                     <p class="small-description">The cream of the crop in luxury SUVs - powerful, comfortable, easy to drive, and a ton of space.</p>
 
                     <div class="pull-right hidden-lg">
-                        <button class="button-large l-btn">Details</button><button class="background-mango-light r-btn button-large">Star</button>
+                        <button class="button-large l-btn">Details</button><button class="background-mango-light r-btn button-large"><span class="icon-heart"></span></button>
                     </div>
-                    <div class="pull-right visible-lg">
-                        <button class="button-medium l-btn">Details</button><button class="background-mango-light r-btn button-medium">Star</button>
+                    <div class="pull-right desktop-browse-btn visible-lg">
+                        <button class="button-medium l-btn">Details</button><button class="background-mango-light r-btn button-medium"><span class="icon-heart"></span></button>
                     </div>
                 </div>
             </div>
@@ -336,7 +408,8 @@
 
 <!-- SCRIPTS -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<!--<script src="js/bootstrap.min.js"></script>-->
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 <script src="js/footer-reveal.min.js"></script>
 <script src="js/main.js"></script>
 </body>

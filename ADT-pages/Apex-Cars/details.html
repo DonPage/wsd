@@ -20,6 +20,7 @@
     <div class="hidden-nav">
 
         <div class="container">
+
             <div class="">
 
                 <form class="">
@@ -33,18 +34,19 @@
 
                     <div class="group col-sm-12">
                         <input type="text"
+                               class="go"
                                pattern="[a-zA-Z0-9_]+(?:\.[A-Za-z0-9!#$%&amp;'*+/=?^_`{|}~-]+)*@(?!([a-zA-Z0-9]*\.[a-zA-Z0-9]*\.[a-zA-Z0-9]*\.))(?:[A-Za-z0-9](?:[a-zA-Z0-9-]*[A-Za-z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?"
                                required>
                         <span class="highlight"></span>
                         <span class="bar"></span>
-                        <label>Email</label>
+                        <label class="g">Email</label>
                     </div>
 
                     <div class="group col-sm-12">
-                        <input type="password" pattern=".{1,80}" required>
+                        <input class="go" type="password" pattern=".{1,80}" required>
                         <span class="highlight"></span>
                         <span class="bar"></span>
-                        <label class="text-center">Password</label>
+                        <label class="g text-center">Password</label>
                     </div>
                     <button class="button-large login-btn">Login</button>
                 </form>
@@ -59,7 +61,7 @@
 </nav>
 
 <div class="breadcrumb">
-    <p>home / browse / <span class="color-mango-light">details</span></p>
+    <p><a href="index.html"><span class="icon-home"></span> </a> / <a href="browse.html">browse</a> / <span class="color-mango-light">details</span></p>
 </div>
 
 
@@ -84,9 +86,12 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-12 text-center">
                 <img src="images/car1.jpg">
             </div>
+        </div>
+        <div class="row">
+            <h1 class="text-center echinos">Lamborghini Gallardo</h1>
         </div>
         <div class="row">
             <div class="col-md-8 col-sm-12">
@@ -95,7 +100,7 @@
 
             </div>
             <div class="col-md-4">
-                <button class="button-supersize center-block">Reserve Now</button>
+                <button class="button-supersize center-block echinos">Reserve Now</button>
             </div>
         </div>
     </div>

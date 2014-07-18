@@ -1,0 +1,342 @@
+<!doctype html>
+
+<!--
+	This is the main index of the application
+	
+	All your script tags should be at the bottom of this file
+	
+	The only html element in the body is the container div
+	Your code should load your page templates into the container
+-->
+
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>Bundle Labs</title>
+    <meta name="description" content="">
+    <meta name="author" content="Don Page">
+
+    <!--  Mobile viewport optimized: j.mp/bplateviewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS concatenated and minified via ant build script-->
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css?v=1">
+    <!-- end CSS-->
+
+</head>
+
+<body>
+
+<div id="popup-bundle" class="popup-off">
+    <div class="pop-content">
+        <div class="popup-header">
+            <button id="close-pop" class="red">Close</button>
+            <h1>Create Bundle</h1>
+        </div>
+        <form class="pad">
+            <div class="labelInput">
+                <label for="inputName">Name:</label>
+                <input name="projectName" id="inputName" class="input masterTooltip" title="Please enter a name for this bundle"
+                       placeholder="5 to 30 characters" type="text" pattern=".{5,30}"
+                       required autofocus>
+            </div>
+            <div class="labelInput">
+                <label for="inputDescription">Description:</label>
+                <input name="projectDescription" id="inputDescription" class="input masterTooltip" title="Description of the bundle"
+                       placeholder="" type="text" required>
+            </div>
+            <div class="labelInput">
+                <label for="inputPrice">Price:</label>
+                <input name="projectDueDate" id="inputPrice" class="input masterTooltip" title="Please enter your the Price"
+                       placeholder="xxx.xx" type="number"
+                       pattern="\d+(\.\d{2})?"
+                       required>
+            </div>
+            <div class="labelInput">
+                <label for="status">Type of Bundle:</label>
+                <select name="projectStatus" id="status">
+                    <option>Choose a bundle type</option>
+                    <option>Clothes Bundle</option>
+                    <option>Game Bundle</option>
+                    <option>Software Bundle</option>
+                </select>
+            </div>
+        </form>
+        <button id="addProject" type="submit" class="pad reg-btn full-width-btn">Submit</button>
+    </div>
+</div>
+
+<div id="popup-bundle-edit" class="popup-off">
+    <div class="pop-content">
+        <div class="popup-header">
+            <button id="close-bundle-pop" class="red">Close</button>
+            <h1>Edit Bundle</h1>
+        </div>
+        <form class="pad">
+            <div class="labelInput">
+                <label for="newName">Name:</label>
+                <input name="projectName" id="newName" class="input masterTooltip" title="Please enter a name for this bundle"
+                       placeholder="5 to 30 characters" type="text" pattern=".{5,30}"
+                       required autofocus>
+            </div>
+            <div class="labelInput">
+                <label for="newDescription">Description:</label>
+                <input name="projectDescription" id="newDescription" class="input masterTooltip" title="Description of the bundle"
+                       placeholder="" type="text" required>
+            </div>
+            <div class="labelInput">
+                <label for="newPrice">Price:</label>
+                <input name="projectDueDate" id="newPrice" class="input masterTooltip" title="Please enter your the Price"
+                       placeholder="xxx.xx" type="number"
+                       pattern="\d+(\.\d{2})?"
+                       required>
+            </div>
+            <div class="labelInput">
+                <label for="newStatus">Type of Bundle:</label>
+                <select name="projectStatus" id="newStatus">
+                    <option>Choose a bundle type</option>
+                    <option>Clothes Bundle</option>
+                    <option>Game Bundle</option>
+                    <option>Software Bundle</option>
+                </select>
+            </div>
+            <!--<div class="labelInput">-->
+                <!--<label for="newPrice">Bundle Ends:</label>-->
+                <!--<input name="projectDueDate" id="newDate" class="input masterTooltip" title="Please enter your the Price"-->
+                       <!--placeholder=""-->
+
+                       <!--required>-->
+            <!--</div>-->
+        </form>
+        <button id="saveProject" type="submit" class="pad reg-btn full-width-btn">Save Edit</button>
+    </div>
+</div>
+
+<div id="edit-profile" class="popup-off">
+    <div class="pop-content">
+        <div class="popup-header">
+            <button id="close-n-user-pop" class="red">Close</button>
+            <h1>Edit Profile</h1>
+        </div>
+        <form class="pad">
+            <!--<div class="labelInput">-->
+                <!--<label for="newFirstName">First Name:</label>-->
+                <!--<input name="first_name" id="newFirstName" class="input masterTooltip" title="Please enter a your first name"-->
+                        <!--type="text"-->
+                       <!--autofocus>-->
+            <!--</div>-->
+            <div class="labelInput">
+                <label for="newLastName">Name:</label>
+                <input name="last_name" id="newLastName" class="input masterTooltip" title="Please enter a your first and last name"
+                       type="text"
+                       >
+            </div>
+            <div class="labelInput">
+                <label for="newEmail">Email:</label>
+                <input name="projectName" id="newEmail" class="input masterTooltip" title="Please enter a new email"
+                       type="text"
+                       >
+            </div>
+            <div class="labelInput">
+                <label for="newPhone">Phone:</label>
+                <input name="phone" id="newPhone" class="input masterTooltip" title="Please enter a new phone number"
+                       type="text"
+                       >
+            </div>
+            <div class="labelInput">
+                <label for="newAvatar">Avatar:</label>
+                <input name="avatar" id="newAvatar" placeholder="URL only" class="input masterTooltip" title="Please enter a URL"
+                       type="url"
+                        >
+            </div>
+            <div class="labelInput">
+                <label for="newBackground">Background:</label>
+                <input name="avatar" id="newBackground" placeholder="URL only" class="input masterTooltip" title="Please enter a URL"
+                       type="url"
+                        >
+            </div>
+        </form>
+        <button id="updateProfile" type="submit" class="pad full-width-btn">Save</button>
+    </div>
+</div>
+
+<header class="header">
+    <nav class="navbar">
+
+
+        <svg class="svg-logo" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+	 width="392.646px" height="307.465px" viewBox="109.677 134.035 392.646 307.465"
+	 enable-background="new 109.677 134.035 392.646 307.465" xml:space="preserve">
+<g class="changeColor" id="Layer_3">
+	<g display="none">
+		<path display="inline" d="M296.379,481.16l-22.564,1.677c-13.926,1.037-19.808-13.151-16.625-29.292
+			c0,0,27.489-72.361,38.062-98.588c10.573-26.224-2.41-32.505-2.41-32.505l-1.73,0.132c-1.521,0.109-2.927-0.717-3.854-2.061
+			c0,0-45.678,149.291-103.495,167.99C275.92,490.132,292.607,482.998,296.379,481.16z"/>
+		<path display="inline" d="M343.619,481.16l22.564,1.677c13.926,1.037,19.808-13.151,16.623-29.292
+			c0,0-27.488-72.361-38.062-98.588c-10.574-26.224,2.408-32.505,2.408-32.505l1.73,0.132c1.521,0.109,2.928-0.717,3.854-2.061
+			c0,0,45.678,149.291,103.497,167.99C364.08,490.132,347.393,482.998,343.619,481.16z"/>
+	</g>
+	<g>
+		<path d="M268.787,183.064c12.297-30.499,4.52-43.99-0.515-49.029h-7.229c-9.475,22.675-72.979,204.85-151.366,252.625v8.675
+			c93.786,1.534,117.09,0.96,122.841,0.539V386.1c-20.481-0.003-29.015-21.838-24.139-46.566
+			C208.379,339.531,252.007,224.688,268.787,183.064z"/>
+		<path d="M343.213,183.064c-12.299-30.499-4.521-43.99,0.514-49.029h7.23c9.475,22.675,72.979,204.85,151.366,252.625v8.675
+			c-93.787,1.534-117.093,0.96-122.843,0.539V386.1c20.479-0.003,29.016-21.838,24.139-46.566
+			C403.619,339.531,359.993,224.688,343.213,183.064z"/>
+	</g>
+</g>
+<g class="bounce" id="Layer_5">
+	<g>
+		<path fill="#48A770" d="M329.229,222.571l-2.303-3.791h-40.143l-2.302,3.791c-15.097,24.807-56.402,93.313-68.288,113.604
+			l47.885,0.028v0.048h82.169v-0.003l50.51,0.027C384.857,315.975,344.348,247.378,329.229,222.571z M337.354,310.026
+			l-12.688,15.111h-40.375V290.83l-6.729-5.85l6.729-5.846v-34.86h39.163l13.127,15.223v16.219l-7.501,8.604l8.273,8.825V310.026
+			L337.354,310.026z"/>
+	</g>
+</g>
+<g id="Layer_2">
+	<!--<g>-->
+		<!--<path d="M188.981,428.864l-5.234,4.636h-9.444l-5.234-4.636v-5.055h4.066v3.116l2.888,2.508h6.004l2.888-2.508v-3.116l-2.888-2.47-->
+			<!--h-7.144l-5.244-4.674v-6.384l5.234-4.636h8.836l5.234,4.636v4.636h-4.028v-2.888l-2.707-2.318h-5.796l-2.707,2.318v2.888-->
+			<!--l2.698,2.356h7.334l5.244,4.636V428.864z"/>-->
+		<!--<path d="M203.345,419.668l-2.318,2.052v11.78h-4.066v-11.78l-2.318-2.052l2.318-2.014v-12.008h4.066v12.008L203.345,419.668z"/>-->
+		<!--<path d="M231.312,428.864l-5.206,4.636h-9.88l-5.206-4.636v-7.183l-2.318-2.014l2.318-2.052v-7.334l5.206-4.636h9.804l5.206,4.636-->
+			<!--l0.076,5.813h-4.066v-3.686l-2.888-2.698h-6.384l-2.888,2.508v14.706l2.888,2.508h6.384l2.888-2.697v-2.964h-5.396v-4.066h9.462-->
+			<!--V428.864z"/>-->
+		<!--<path d="M260.496,419.668l-2.318,2.014V433.5h-4.066l-11.628-20.634V433.5h-4.066v-11.818l-2.318-2.014l2.318-2.052v-11.97h4.294-->
+			<!--l11.4,20.063v-20.063h4.066v11.97L260.496,419.668z"/>-->
+		<!--<path d="M306.59,419.668l-2.318,2.014v7.145l-5.206,4.674h-9.88l-5.206-4.674v-7.145l-2.318-2.014l2.318-2.052v-11.97h4.066-->
+			<!--v21.241l2.888,2.546h6.384l2.888-2.546v-21.241h4.066v11.97L306.59,419.668z"/>-->
+		<!--<path d="M331.936,416.476l-4.522,5.244h-9.424v11.78h-4.066v-11.818l-2.317-2.014l2.317-2.052v-11.97h13.49l4.522,5.205V416.476z-->
+			 <!--M327.869,414.752v-2.139l-2.395-2.901h-7.485v7.942h7.485L327.869,414.752z"/>-->
+		<!--<path d="M378.826,419.668l-2.317,2.014V433.5h-4.066l-11.628-20.634V433.5h-4.065v-11.818l-2.318-2.014l2.318-2.052v-11.97h4.294-->
+			<!--l11.399,20.063v-20.063h4.066v11.97L378.826,419.668z"/>-->
+		<!--<path d="M407.554,419.668l-2.317,2.014v7.183l-5.206,4.636h-9.88l-5.244-4.636v-7.183l-2.318-2.014l2.318-2.052v-7.334-->
+			<!--l5.244-4.636h9.88l5.206,4.636v7.334L407.554,419.668z M401.17,426.964V412.22l-2.896-2.508h-6.404l-2.897,2.508v14.744-->
+			<!--l2.897,2.47h6.404L401.17,426.964z"/>-->
+		<!--<path d="M445.705,405.646l-3.762,12.084l2.356,2.241l-3.572,1.748l-3.725,11.78h-4.674l-4.826-20.52l-4.825,20.52h-4.675-->
+			<!--l-3.724-11.78l-3.572-1.748l2.356-2.241l-3.762-12.084h4.636l6.384,22.229l4.864-22.229h4.636l4.826,22.229l6.384-22.229H445.705z-->
+			<!--"/>-->
+	<!--</g>-->
+</g>
+</svg>
+
+        <!--<a href="#" class="navbar-button sidebar-toggle" role="button"></a>-->
+        <!--<div class="navbar-right">-->
+        <!--<span><a data-toggle="dropdown">Login</a></span><span>/</span>-->
+        <!--<span><a>Register</a></span>-->
+        <!--</div>-->
+        <ul class="clearfix">
+            <!--<li><a class="logo-text" href="index.html">Bundle Labs</a></li>-->
+            <li><a id="currentUser" href="#"></a>
+                <ul>
+                    <input name="logOut" type="button" id="logOut" value="Sign Out" />
+                    <li id="numBundles pad">Bundles <a id="b-number"></a></li>
+                    <li id="numFriends pad">Friends <a id="f-number"></a></li>
+
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header>
+<div class="full-wrapper">
+    <div class="call-to-action">
+        <!--<div class="profile-text">-->
+        <!--<h2>Hello, username</h2>-->
+
+        <!--<h2>Bundles: #</h2>-->
+        <!--<button class="cta-button">Edit profile</button>-->
+        <!--</div>-->
+    </div>
+    <div class="tab-wrapper">
+
+        <button id="Info-btn" class="profileTab tlt" data-in-effect="rollIn">Info</button>
+        <button id="bundle-btn" class="profileTab tlt" data-in-effect="rollIn">Bundles</button>
+        <button id="community-btn" class="profileTab tlt" data-in-effect="rollIn">Community</button>
+
+
+    </div>
+    <div class="profile-wrapper overflow">
+
+        <div id="community-html" class="dropdown-wrapper">
+            <div class="management">
+
+                <!--<h1>Projects</h1>-->
+                <!--<button class="cta-button open-bundle">Create Bundle</button><button id="saveButton" class="cta-button">Save Position</button>-->
+            </div>
+            <div class="dropdown">
+                <div class="projects-wrapper">
+                    <ul id="community-projectsHTML" class="projects-u">
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="bundles-html" class="dropdown-wrapper">
+            <div class="management">
+
+                <!--<h1>Projects</h1>-->
+                <button class="cta-button open-bundle">Create Bundle</button><button id="saveButton" class="cta-button">Save Position</button>
+            </div>
+            <div class="dropdown">
+                <div class="projects-wrapper">
+                    <ul id="projectsHTML" class="projects">
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="info-html" class="dropdown-wrapper">
+            <div class="management">
+
+                <!--<h1>Projects</h1>-->
+                <button id="edit-profile-btn" class="cta-button edit-profile">Edit Profile</button>
+            </div>
+            <div class="dropdown">
+                <div class="c-wrapper clearfix">
+                    <h2 class="c-header">Info</h2>
+
+                    <div class="c-info">
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="p-management">
+
+    </div>
+</div>
+
+
+<!-- jquery -->
+<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>-->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+<!-- plugins -->
+<script src="js/jquery-ui-1.10.4.min.js"></script>
+<script src="js/handlebars-v1.3.0.js"></script>
+<script src="js/plugins/jquery.fittext.js"></script>
+<script src="js/plugins/jquery.lettering.js"></script>
+<script src="js/plugins/jquery.textillate.js"></script>
+<!-- main -->
+<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
