@@ -1,13 +1,17 @@
 /**
  * Created by donpage on 7/13/14.
  */
-$('.hidden-nav').slideUp('fast');
 
 $(document).ready(function (e) {
 
 
+//    $('#index-l').on('click', function(e){
+//        e.preventDefault();
+//        window.location=document.('index-l.html').href;
+//    });
+    $('.hidden-nav').slideUp('fast');
 
-    console.log('jquery ready');
+
     $('.filter-btn').on('click', function () {
         console.log('clicked');
         $('#browse-container').toggleClass('show-filter');
@@ -65,6 +69,8 @@ $(document).ready(function (e) {
 
 
     $('#accordion').accordion();
+
+
 
 });
 

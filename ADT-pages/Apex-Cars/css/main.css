@@ -24,13 +24,28 @@ h1.echinos{
     font-size: 5em;
 }
 
+ul a:hover{
+    color: #eee;
+    text-decoration: none;
+    border-bottom: 1px white solid;
+}
 
 h1#the-hive{
     color: white;
     top: 264px;
     width: 100%;
-    font-size: 250%;
+    font-size: 350%;
     position: absolute;
+}
+
+a button{
+    color: #eee;
+
+}
+
+a button:hover{
+    color: white;
+    text-decoration: none;
 }
 
 button.echinos{
@@ -39,7 +54,10 @@ button.echinos{
 
 a button.echinos{
     text-decoration: none !important;
+}
 
+.icon-user{
+    top: -5px;
 }
 
 body {
@@ -52,22 +70,28 @@ button:hover{
     box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
 }
 
+ul.pull-left li a{
+    padding: 0 10px;
+}
+
 nav {
     -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
     position: relative;
-    z-index: 9999;
+    z-index: 900;
     width: 100%;
     background: #4e4e4e;
+
 }
 
 nav ul {
     padding: 2em 4%;
+    margin-bottom: 14px;
     text-align: center;
-    max-height: 4em;
-    width: 100%;
-    height: auto;
+    max-height: 3em;
+    width: 50%;
+    height: 2em;
     list-style: none;
 }
 
@@ -79,13 +103,27 @@ nav ul {
     height: 500px;
 }
 
+.hidden-nav-buttons{
+    position: absolute;
+    top: .5em;
+    width: 100%;
+}
+
+.hidden-nav-buttons span{
+    padding: 0 30px;
+    font-size: 24px;
+    /*font-family: "echinos", sans-serif;*/
+}
+
+
 .login-btn{
     width: 100%;
 }
 
 nav ul li {
+    z-index: 900;
+    padding-right: 1em;
     display: inline;
-    /*padding: 4em 20% 0;*/
 }
 
 nav ul li a {
@@ -95,16 +133,21 @@ nav ul li a {
     float: right;
     top: -3em;
 }
+nav ul li a:hover{
+    text-decoration: none;
+}
 
 nav ul li span {
     top: -11px;
     color: #eee;
     font-size: 2em;
-    position: absolute;
+    position: relative;
 }
 
-.honey-gallery {
 
+
+.honey-gallery {
+    z-index: 10;
     position: relative;
     width: 100%;
     height: auto;
