@@ -31,13 +31,7 @@ $(document).ready(function (e) {
     $('footer').footerReveal({ shadow: true, zIndex: -101 });
 
 
-    $('#mid-left').on('click', function () {
-        alert($(this).attr('id') + " clicked");
-    });
 
-    $('#mid-mid').on('click', function () {
-        alert($(this).attr('id') + " clicked");
-    });
 
     $('.ham-btn').on('click', function () {
         if ($('.hidden-nav').hasClass('nav-show')) {

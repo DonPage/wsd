@@ -293,7 +293,8 @@ img {
 }
 
 #mid-mid {
-    -webkit-animation: honeyColor 3.6s infinite ease;
+    /*-webkit-animation: honeyColor 3.6s infinite ease;*/
+    fill: url('#mid');
 
 }
 
