@@ -74,6 +74,12 @@ ul.pull-left li a{
     padding: 0 10px;
 }
 
+.logo{
+    z-index: -1;
+    width: 100%;
+    position: absolute;
+}
+
 nav {
     -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);

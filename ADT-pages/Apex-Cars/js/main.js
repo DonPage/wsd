@@ -2,14 +2,18 @@
  * Created by donpage on 7/13/14.
  */
 
-$(document).ready(function (e) {
+$(document).load(function(e){
+    $('.hidden-nav').slideUp('fast');
+});
 
+$(document).ready(function (e) {
+    $('.hidden-nav').slideUp('fast');
 
 //    $('#index-l').on('click', function(e){
 //        e.preventDefault();
 //        window.location=document.('index-l.html').href;
 //    });
-    $('.hidden-nav').slideUp('fast');
+
 
 
     $('.filter-btn').on('click', function () {
