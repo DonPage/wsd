@@ -74,7 +74,17 @@ ul.pull-left li a{
     padding: 0 10px;
 }
 
+.car-love{
+    z-index: 300;
+    position: absolute;
+    right: 0;
+    top: 650px;
+    margin: 15px;
+
+}
+
 .logo{
+
     z-index: -1;
     width: 100%;
     position: absolute;
