@@ -4,9 +4,11 @@
 
 $(document).load(function(e){
     $('.hidden-nav').slideUp('fast');
+
 });
 
 $(document).ready(function (e) {
+
     $('.hidden-nav').slideUp('fast');
 
 //    $('#index-l').on('click', function(e){

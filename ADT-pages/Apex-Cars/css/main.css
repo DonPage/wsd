@@ -30,6 +30,10 @@ ul a:hover{
     border-bottom: 1px white solid;
 }
 
+a:hover{
+    text-decoration: none;
+}
+
 h1#the-hive{
     color: white;
     top: 264px;
@@ -46,14 +50,24 @@ a button{
 a button:hover{
     color: white;
     text-decoration: none;
+
 }
 
 button.echinos{
+    color: black;
+    border: 2px solid black;
+    background: transparent;
     font-size: 30px;
 }
 
+button.echinos:hover{
+    background: black;
+    color: white;
+    text-decoration: none;
+}
+
 a button.echinos{
-    text-decoration: none !important;
+    text-decoration: none;
 }
 
 .icon-user{
@@ -84,10 +98,12 @@ ul.pull-left li a{
 }
 
 .logo{
-
     z-index: -1;
     width: 100%;
     position: absolute;
+}
+.logo > h3.echinos{
+    color: #eee;
 }
 
 nav {
@@ -97,7 +113,7 @@ nav {
     position: relative;
     z-index: 900;
     width: 100%;
-    background: #4e4e4e;
+    background: #323232;
 
 }
 
@@ -149,6 +165,7 @@ nav ul li a {
     float: right;
     top: -3em;
 }
+
 nav ul li a:hover{
     text-decoration: none;
 }
@@ -245,12 +262,17 @@ img {
     max-height: 100%;
 }
 
+.r-btn:hover{
+    background-color: #ffa709;
+}
+
 .filter{
     display: block;
     width: 100%;
 }
 
 .filter-btn {
+    background-color: #343434;
     right: 0;
     text-align: right;
     border-top-left-radius: 9px;
@@ -260,6 +282,15 @@ img {
     margin-top: 2em;
     outline: none;
 }
+
+button{
+    background-color: #343434;
+}
+
+.filter-btn:hover, .dropdown-toggle:hover, button:hover{
+    background: #525252;
+}
+
 
 .l-btn {
     border-top-left-radius: 4px;
@@ -272,12 +303,16 @@ img {
 }
 
 .filter-sidebar {
+    color: white;
+    background-color: #343434;
     position: absolute;
     right: -300px;
     width: 300px;
     height: 100%;
     z-index: 20;
 }
+
+
 
 #browse-container {
     width: 100%;
@@ -310,7 +345,7 @@ img {
 
 #mid-mid {
     /*-webkit-animation: honeyColor 3.6s infinite ease;*/
-    fill: url('#mid');
+    fill: url('#car7');
 
 }
 
@@ -495,6 +530,10 @@ input:valid ~ .hightlight {
     display: inline;
     width: 65px;
     border: white solid 1px;
+}
+
+.map{
+    margin-top: 40px;
 }
 
 
