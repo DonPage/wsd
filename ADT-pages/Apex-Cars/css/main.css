@@ -114,6 +114,7 @@ nav {
     z-index: 900;
     width: 100%;
     background: #323232;
+    height: 5em;
 
 }
 
@@ -133,6 +134,7 @@ nav ul {
     width: 100%;
     position: relative;
     height: 500px;
+    display:none;
 }
 
 .hidden-nav-buttons{
@@ -244,6 +246,10 @@ footer p{
     border-bottom: 1px solid #e0e0e0;
 }
 
+.car-content:hover{
+    background-color: #eee;
+}
+
 
 .all-cars-container:nth-child(1){
     margin-top: 3em;
@@ -283,6 +289,15 @@ img {
     outline: none;
 }
 
+.loved{
+    color: pink;
+    background-color: #3c3c3c;
+}
+
+.loved:hover{
+    background-color: #525252;
+}
+
 button{
     background-color: #343434;
 }
@@ -292,14 +307,24 @@ button{
 }
 
 
+
+
 .l-btn {
+    position: relative;
+    left: 5px;
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
 }
 
+
+
 .r-btn {
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
+}
+
+.r-btn:focus{
+    outline: 0;
 }
 
 .filter-sidebar {
@@ -373,6 +398,36 @@ button{
     fill: url("#car6");
 }
 
+#bee{
+    z-index: 10;
+    top: -60px;
+    position: inherit;
+    width: 100%;
+    height: 8em;
+    margin: 0 auto;
+}
+
+.bee-nonhome{
+    height: 3em !important;
+}
+
+.ham-btn, .above-logo{
+    z-index: 220;
+}
+
+
+
+#b-head, #b-torso, #l-wing, #r-wing{
+    fill: #323232;
+    stroke: #ffa709;
+    stroke-width: 1px;
+}
+
+#bee:hover > .b-part{
+    -webkit-animation: pulse2 1.4s infinite ease;
+    cursor: pointer;
+}
+
 /*#mid-mid:hover{*/
 /*-webkit-transform: translateY(0px);*/
 /*-webkit-animation: bounce 1.6s infinite ease;*/
@@ -380,13 +435,42 @@ button{
 
 .svg-honey {
     stroke: gray;
+    position: relative;
 
 }
 
 .svg-honey:hover {
-
+    -webkit-animation: pulse 1.4s infinite ease;
     cursor: pointer;
-    stroke: black;
+    stroke: #ffa709;
+    stroke-width: 3px;
+}
+
+
+
+@-webkit-keyframes pulse2 {
+    0% {
+        stroke-width: 1px;
+    }
+    50% {
+        stroke-width: 4px;
+    }
+    100% {
+        stroke-width: 1px;
+    }
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        stroke-width: 1px;
+    }
+    50% {
+        stroke-width: 8px;
+        stroke-linecap: round;
+    }
+    100% {
+        stroke-width: 1px;
+    }
 }
 
 @-webkit-keyframes bounce {
@@ -399,6 +483,11 @@ button{
     100% {
         -webkit-transform: translateY(10px);
     }
+}
+
+.modal-dialog{
+    width: auto;
+    margin: 30px;
 }
 
 /*Inputs ******************
@@ -430,6 +519,7 @@ input.go {
     border: none;
     border-bottom: 1px solid #757575;
 }
+
 
 input:focus {
     outline: none;
@@ -522,6 +612,10 @@ input:valid ~ .hightlight {
     width: 100%;
 }
 
+.fixed-width{
+    width: auto !important;
+}
+
 .btn-search{
     position: absolute;
     top: 31px;
@@ -535,6 +629,8 @@ input:valid ~ .hightlight {
 .map{
     margin-top: 40px;
 }
+
+
 
 
 /* ANIMATIONS ================ */
@@ -578,8 +674,10 @@ img{
 }
 
 /*iPhone 4 (320px)*/
-@media (max-width: 450px) {
-
+@media (max-width: 550px) {
+    .modal-dialog{
+        margin: 30px auto;
+    }
     /*img{*/
     /*max-width: 330px;*/
     /*display: block;*/

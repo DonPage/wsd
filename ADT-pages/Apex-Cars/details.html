@@ -15,6 +15,63 @@
 </head>
 <body>
 
+<!-- Modal -->
+<div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="myModalLabel">Register</h4>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+
+
+                    <div class="">
+
+                        <form class="modal-form">
+
+                            <!--<div class="group col-sm-12">-->
+                            <!--<input type="text" pattern=".{1,80}" required>-->
+                            <!--<span class="highlight"></span>-->
+                            <!--<span class="bar"></span>-->
+                            <!--<label>Name</label>-->
+                            <!--</div>-->
+
+                            <div class="group col-sm-12">
+                                <input type="text"
+                                       class="go "
+                                       pattern="[a-zA-Z0-9_]+(?:\.[A-Za-z0-9!#$%&amp;'*+/=?^_`{|}~-]+)*@(?!([a-zA-Z0-9]*\.[a-zA-Z0-9]*\.[a-zA-Z0-9]*\.))(?:[A-Za-z0-9](?:[a-zA-Z0-9-]*[A-Za-z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?"
+                                       required>
+                                <span class="highlight "></span>
+                                <span class="bar"></span>
+                                <label class="g">Email</label>
+                            </div>
+
+                            <div class="group col-sm-12">
+                                <input class="go" type="password" pattern=".{1,80}" required>
+                                <span class="highlight"></span>
+                                <span class="bar"></span>
+                                <label class="g text-center">Password</label>
+                            </div>
+                        </form>
+
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="details-l.html">
+                    <button  class="button-large login-btn">Register</button>
+                </a>
+                <div class="container text-right">
+                    <span><a href="#">or login</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <nav class="clearfix">
     <div class="hidden-nav">
@@ -60,7 +117,6 @@
                 <a href="details-l.html">
                     <button id=index-l class="button-large login-btn">Login</button>
                 </a>
-
             </div>
             <div class="container text-right">
                 <span><a href="#">Register</a></span>
@@ -71,15 +127,20 @@
         <li><a href="#"> <span class="hidden-lg ham-btn">☰</span></a></li>
         <li><a class="visible-lg ham-btn" href="#">Login</a></li>
     </ul>
+
     <div class="logo">
-        <h3 class="echinos text-center">Logo</h3>
+        <h3 class="echinos text-center">Sweet Car Rentals</h3>
     </div>
     <ul class="pull-left">
-        <li><a class="visible-lg pull-left" href="browse.html">Browse</a></li>
+        <li><a class="above-logo visible-lg pull-left" href="browse.html">Browse</a></li>
     </ul>
+
 </nav>
 
-<div class="breadcrumb">
+
+
+
+<div class="breadcrumb above-logo">
     <p><a href="index.html"><span class="icon-home"></span> </a> / <a href="browse.html">browse</a> / <span class="color-mango-light">details</span></p>
 </div>
 
@@ -119,7 +180,7 @@
 
             </div>
             <div class="col-md-4">
-                <button class="button-supersize center-block echinos">Reserve Now</button>
+                <button  class="button-supersize center-block echinos" data-toggle="modal" data-target="#registerModal">Reserve Now</button>
             </div>
         </div>
     </div>
@@ -132,7 +193,8 @@
 
 <!-- SCRIPTS -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<!--<script src="js/bootstrap.min.js"></script>-->
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 <script src="js/footer-reveal.min.js"></script>
 <script src="js/main.js"></script>
 </body>

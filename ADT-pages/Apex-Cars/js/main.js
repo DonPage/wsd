@@ -2,14 +2,22 @@
  * Created by donpage on 7/13/14.
  */
 
-$(document).load(function(e){
-    $('.hidden-nav').slideUp('fast');
-
-});
-
 $(document).ready(function (e) {
 
+
+    $('.svg-honey').on('click', function(){
+        window.location.assign('details.html');
+
+    });
+
     $('.hidden-nav').slideUp('fast');
+
+
+    $('.heart').on('click', function(){
+        console.log('heart');
+       $(this).toggleClass('loved');
+    });
+
 
 //    $('#index-l').on('click', function(e){
 //        e.preventDefault();
@@ -42,8 +50,13 @@ $(document).ready(function (e) {
     $('.ham-btn').on('click', function () {
         if ($('.hidden-nav').hasClass('nav-show')) {
             $('.hidden-nav').slideUp('fast').toggleClass('nav-show');
+            $('nav').css('height','5em');
+
         } else {
             $('.hidden-nav').slideDown('fast').toggleClass('nav-show');
+            $('nav').css('height','auto');
+
+
 
         }
     });
