@@ -35,21 +35,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="details.html" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="details.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Apex-Cars/details.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.29090908" vertical-offset="722" max-vertical-offset="3120">
-                  <caret line="62" column="18" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
+                <state vertical-scroll-proportion="-5.869565" vertical-offset="0" max-vertical-offset="3255">
+                  <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="browse.html" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="browse.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Apex-Cars/browse.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-6.347826" vertical-offset="154" max-vertical-offset="8370">
-                  <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+                <state vertical-scroll-proportion="0.07557355" vertical-offset="154" max-vertical-offset="8370">
+                  <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -99,21 +99,21 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Apex-Cars/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-24.461538" vertical-offset="3339" max-vertical-offset="10365">
-                  <caret line="265" column="15" selection-start-line="265" selection-start-column="15" selection-end-line="265" selection-end-column="15" />
+                <state vertical-scroll-proportion="0.081151836" vertical-offset="3313" max-vertical-offset="10050">
+                  <caret line="225" column="2" selection-start-line="225" selection-start-column="2" selection-end-line="225" selection-end-column="2" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Apex-Cars/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.56806284" vertical-offset="661" max-vertical-offset="1425">
-                  <caret line="73" column="17" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="586" max-vertical-offset="1350">
+                  <caret line="57" column="7" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="7" />
                   <folding />
                 </state>
               </provider>
@@ -138,11 +138,11 @@
         <option value="$PROJECT_DIR$/Apex-Cars/index-l.html" />
         <option value="$PROJECT_DIR$/Apex-Cars/browse.html" />
         <option value="$PROJECT_DIR$/Apex-Cars/favorites-l.html" />
-        <option value="$PROJECT_DIR$/Apex-Cars/js/main.js" />
-        <option value="$PROJECT_DIR$/Apex-Cars/css/main.css" />
         <option value="$PROJECT_DIR$/Apex-Cars/browse-l.html" />
         <option value="$PROJECT_DIR$/Apex-Cars/details-l.html" />
         <option value="$PROJECT_DIR$/Apex-Cars/details.html" />
+        <option value="$PROJECT_DIR$/Apex-Cars/js/main.js" />
+        <option value="$PROJECT_DIR$/Apex-Cars/css/main.css" />
       </list>
     </option>
   </component>
@@ -677,34 +677,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Apex-Cars/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-24.461538" vertical-offset="3339" max-vertical-offset="10365">
-          <caret line="265" column="15" selection-start-line="265" selection-start-column="15" selection-end-line="265" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Apex-Cars/favorites-l.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.8163266" vertical-offset="0" max-vertical-offset="3255">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apex-Cars/browse.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.347826" vertical-offset="154" max-vertical-offset="8370">
-          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apex-Cars/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56806284" vertical-offset="661" max-vertical-offset="1425">
-          <caret line="73" column="17" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -725,10 +701,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Apex-Cars/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="586" max-vertical-offset="1350">
+          <caret line="57" column="7" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apex-Cars/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.081151836" vertical-offset="3313" max-vertical-offset="10050">
+          <caret line="225" column="2" selection-start-line="225" selection-start-column="2" selection-end-line="225" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Apex-Cars/details.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29090908" vertical-offset="722" max-vertical-offset="3120">
-          <caret line="62" column="18" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
+        <state vertical-scroll-proportion="-5.869565" vertical-offset="0" max-vertical-offset="3255">
+          <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apex-Cars/browse.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07557355" vertical-offset="154" max-vertical-offset="8370">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>

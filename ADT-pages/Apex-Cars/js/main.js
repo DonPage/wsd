@@ -5,7 +5,7 @@
 $(document).ready(function (e) {
 
 
-    $('.svg-honey').on('click', function(){
+    $('.svg-honey').on('click', function () {
         window.location.assign('details.html');
 
     });
@@ -13,9 +13,9 @@ $(document).ready(function (e) {
     $('.hidden-nav').slideUp('fast');
 
 
-    $('.heart').on('click', function(){
+    $('.heart').on('click', function () {
         console.log('heart');
-       $(this).toggleClass('loved');
+        $(this).toggleClass('loved');
     });
 
 
@@ -23,7 +23,6 @@ $(document).ready(function (e) {
 //        e.preventDefault();
 //        window.location=document.('index-l.html').href;
 //    });
-
 
 
     $('.filter-btn').on('click', function () {
@@ -45,17 +44,14 @@ $(document).ready(function (e) {
     $('footer').footerReveal({ shadow: true, zIndex: -101 });
 
 
-
-
     $('.ham-btn').on('click', function () {
         if ($('.hidden-nav').hasClass('nav-show')) {
             $('.hidden-nav').slideUp('fast').toggleClass('nav-show');
-            $('nav').css('height','5em');
+            $('nav').css('height', '5em');
 
         } else {
             $('.hidden-nav').slideDown('fast').toggleClass('nav-show');
-            $('nav').css('height','auto');
-
+            $('nav').css('height', 'auto');
 
 
         }
@@ -82,7 +78,6 @@ $(document).ready(function (e) {
 
 
     $('#accordion').accordion();
-
 
 
 });
