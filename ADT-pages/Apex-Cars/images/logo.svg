@@ -1,0 +1,12 @@
+    <?xml version="1.0" encoding="utf-8"?>
+    <!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+    <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+    <svg version="1.1" id="bee" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="107.381px" height="181.113px" viewBox="133.237 81.887 107.381 181.113"
+	 enable-background="new 133.237 81.887 107.381 181.113" xml:space="preserve">
+<polygon  class="b-part" id="b-head" points="173.205,129.411 159.485,105.649 173.205,81.887 200.642,81.887 214.363,105.649 200.642,129.411 "/>
+<polygon stroke="red" class="b-part" id="b-torso" points="219.894,213.217 187.182,260.068 154.211,213.664 153.953,175.742 186.666,156.559 219.634,175.294
+	"/>
+<polygon class="b-part" id="l-wing" points="158.407,118.528 179.631,151.639 150.083,170.429 135.012,196.549 133.237,140.557 150.346,132.406 "/>
+<polygon class="b-part" id="r-wing" points="215.451,118.528 194.226,151.639 223.775,170.429 238.845,196.549 240.619,140.557 223.51,132.406 "/>
+</svg>

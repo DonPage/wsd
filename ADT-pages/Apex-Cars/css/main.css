@@ -112,7 +112,7 @@ nav {
     position: relative;
     z-index: 900;
     width: 100%;
-    background: #323232;
+    background: #323232 url('../images/logo.svg') repeat;
     height: 5em;
 
 }
@@ -234,7 +234,7 @@ footer p {
 }
 
 .car-content:first-of-type {
-    padding-top: 8.2em;
+    margin-top: 8.6em;
 }
 
 .car-content {
@@ -430,6 +430,11 @@ button {
     cursor: pointer;
     stroke: #ffa709;
     stroke-width: 3px;
+}
+
+.ad{
+    max-width: 300px;
+
 }
 
 @-webkit-keyframes pulse2 {
@@ -651,6 +656,13 @@ img {
     min-height: auto;
 }
 
+@media (max-width: 1092px){
+    .car-info{
+        float: right;
+        width: 400px;
+    }
+}
+
 /*iPhone 4 (320px)*/
 @media (max-width: 550px) {
     .modal-dialog {
@@ -663,3 +675,15 @@ img {
     /*}*/
 
 }
+
+@media (max-width: 740px){
+    .car-content > .row > .col-xs-5{
+        width: 100%;
+    }
+    .car-info{
+        width: 100%;
+        clear: both;
+    }
+
+}
+
