@@ -47,11 +47,11 @@ $(document).ready(function (e) {
     $('.ham-btn').on('click', function () {
         if ($('.hidden-nav').hasClass('nav-show')) {
             $('.hidden-nav').slideUp('fast').toggleClass('nav-show');
-            $('nav').css('height', '5em');
+//            $('nav').css('height', '5em');
 
         } else {
             $('.hidden-nav').slideDown('fast').toggleClass('nav-show');
-            $('nav').css('height', 'auto');
+//            $('nav').css('height', 'auto');
 
 
         }
