@@ -96,6 +96,8 @@ ul.pull-left li a {
 }
 
 .logo {
+
+    cursor: pointer;
     margin-left: 3px;
     z-index: -1;
     width: 100%;

@@ -7,7 +7,10 @@ $(document).ready(function (e) {
 
     $('.svg-honey').on('click', function () {
         window.location.assign('details.html');
+    });
 
+    $('.logo').on('click', function(){
+        window.location.assign('index.html')
     });
 
     $('.hidden-nav').slideUp('fast');
