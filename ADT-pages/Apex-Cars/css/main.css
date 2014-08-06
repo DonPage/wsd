@@ -42,7 +42,6 @@ h1#the-hive {
 
 a button {
     color: #eee;
-
 }
 
 a button:hover {
@@ -98,14 +97,13 @@ ul.pull-left li a {
 .logo {
 
     cursor: pointer;
-    margin-left: 3px;
+    margin-left: 4px;
     z-index: -1;
     width: 100%;
     height: 5em;
     position: absolute;
     background: url('../images/new-bee-logo.png') no-repeat center;
 }
-
 
 .logo > h3.echinos {
     color: #eee;
@@ -151,17 +149,15 @@ nav ul {
     border-bottom: 1px solid #757575;
 }
 
-.hidden-nav-buttons > .container > span > a{
+.hidden-nav-buttons > .container > span > a {
     color: white;
 }
 
-.hidden-nav-buttons > .container > span > a:hover{
+.hidden-nav-buttons > .container > span > a:hover {
     padding-bottom: 1.45em;
     border-bottom: 2px solid #ffa709;
     color: #ffa709;
 }
-
-
 
 .hidden-nav-buttons span {
     padding: 0 30px;
@@ -254,8 +250,6 @@ footer p {
     margin-left: 200px;
 }
 
-
-
 .car-content {
     padding: 8px 50px;
     border-bottom: 1px solid #e0e0e0;
@@ -265,11 +259,11 @@ footer p {
     background-color: #eee;
 }
 
-.car-content > .row{
+.car-content > .row {
     padding: 90px 10px 10px 10px;
 }
 
-.close{
+.close {
     float: right;
 }
 
@@ -385,8 +379,7 @@ button {
 
 #mid-mid {
     /*-webkit-animation: honeyColor 3.6s infinite ease;*/
-    fill: url('#car7');
-
+    fill: url('#car3');
 }
 
 #mid-left {
@@ -394,7 +387,7 @@ button {
 }
 
 #mid-right {
-    fill: url("#car3");
+    fill: url("#car7");
 }
 
 #top-left {
@@ -459,7 +452,7 @@ button {
     stroke-width: 3px;
 }
 
-.ad{
+.ad {
     max-width: 300px;
 
 }
@@ -683,12 +676,13 @@ img {
     min-height: auto;
 }
 
-@media (max-width: 1092px){
-    .car-info{
+@media (max-width: 1092px) {
+    .car-info {
         float: right;
         width: 400px;
     }
-    body > nav > div.hidden-nav.nav-show > div.container{
+
+    body > nav > div.hidden-nav.nav-show > div.container {
         margin-top: 5%;
     }
 }
@@ -706,15 +700,17 @@ img {
 
 }
 
-@media (max-width: 740px){
-    .car-content > .row > .col-xs-5{
+@media (max-width: 740px) {
+    .car-content > .row > .col-xs-5 {
         width: 100%;
     }
-    .car-info{
+
+    .car-info {
         width: 100%;
         clear: both;
     }
-    body > nav > div.hidden-nav.nav-show > div.container{
+
+    body > nav > div.hidden-nav.nav-show > div.container {
         margin-top: 5em;
     }
 
