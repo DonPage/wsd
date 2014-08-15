@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+	
+	<head>
+		
+		<title>HTML5 VideoExample</title>
+
+	</head>
+
+	<body>	
+
+    <video src="video/video.mp4" width="400" height="275" controls poster="images/posterImage.jpg">
+        Video is not Supported
+    </video>
+
+    <video width="400" controls autoplay>
+        <!--Browser will go through these in order until one works, or if it doesn't, fall back-->
+        <source src="video/video.mp4" type="video/mp4"/>
+        <source src="video/countdown.ogv" type="video/ogg"/>
+        <embed src="flash-video.flv" width="400" height="225" allowscriptaccess="always" allowfullscreen="true"></embed>
+        Video is not supported.
+    </video>
+
+        
+	</body>
+
+</html>
+
+
