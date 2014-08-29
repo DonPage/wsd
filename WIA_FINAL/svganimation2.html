@@ -1,0 +1,47 @@
+<button ng-click="closeItemPage()" class="closePage">Close</button>
+<h1>Pure HTML5 animation, yo.</h1>
+
+<!-- Create SVG tag and give it a width and height-->
+<svg width="100%" height="100%" style=" height: 35em">
+    <!-- Create a circle-->
+
+
+    <circle cx="100" cy="100" r="30" fill="rgb(39, 198, 162)">
+        <animate attributeName="cx" from="0" to="100%" dur="3s" repeatCount="indefinite"/>
+        <animate id="pulse" attributeName="r" values="30;10;30" dur="1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="100" cy="100" r="30" fill="rgb(39, 198, 162)">
+        <animate attributeName="cx" from="100%" to="0" dur="3s" repeatCount="indefinite"/>
+        <animate id="pulse" attributeName="r" values="30;10;30" dur="1s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="100" cy="300" r="30" fill="rgb(251, 73, 83)">
+        <animate attributeName="cx" from="0" to="100%" dur="2s" repeatCount="indefinite"/>
+        <animate id="pulse" attributeName="r" values="20;5;20" dur="1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="100" cy="300" r="30" fill="rgb(251, 73, 83)">
+        <animate attributeName="cx" from="100%" to="0" dur="2s" repeatCount="indefinite"/>
+        <animate id="pulse" attributeName="r" values="20;5;20" dur="1s" repeatCount="indefinite"/>
+    </circle>
+
+        <circle cx="100" cy="400" r="30" fill="rgb(249, 195, 89)">
+            <animate attributeName="cx" from="0" to="100%" dur="1s" repeatCount="indefinite"/>
+            <animate id="pulse" attributeName="r" values="15;3;15" dur="1s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="100" cy="400" r="30" fill="rgb(249, 195, 89)">
+            <animate attributeName="cx" from="100%" to="0" dur="1s" repeatCount="indefinite"/>
+            <animate id="pulse" attributeName="r" values="15;3;15" dur="1s" repeatCount="indefinite"/>
+        </circle>
+
+    <circle cx="100" cy="500" r="30" fill="rgb(39, 198, 162)">
+        <animate attributeName="cx" from="0" to="100%" dur="3.5s" repeatCount="indefinite"/>
+        <animate id="pulse" attributeName="r" values="40;20;40" dur="1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="100" cy="500" r="30" fill="rgb(39, 198, 162)">
+        <animate attributeName="cx" from="100%" to="0" dur="3.5s" repeatCount="indefinite"/>
+        <animate id="pulse" attributeName="r" values="40;20;40" dur="1s" repeatCount="indefinite"/>
+    </circle>
+
+
+
+</svg>

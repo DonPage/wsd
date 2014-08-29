@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>SVG Filters</title>
+
+	</head>
+	<body>
+		<h1>SVG Filters</h1>
+		<p>This example will show how to use filters in an SVG.</p>
+	
+    
+    <!-- Create SVG tag and give it a width and height-->
+		<svg width="500" height="500">
+		
+		<!--
+			All internet SVG filters are defined within a <defs> element. 
+			The <defs> element is short for definitions and contains definition of special elements (such as filters). 
+			
+			The filter blurs the input image by the amount specified in stdDeviation, which defines the bell-curve.
+			The id attribute of the <filter> element defines a unique name for the filter
+			The blur effect is defined with the <feGaussianBlur> element
+			The in="SourceGraphic" part defines that the effect is created for the entire element
+			The stdDeviation attribute defines the amount of the blur
+			The filter attribute of the <rect> element links the element to the "f1" filter
+			
+			-->
+		  <defs>
+		  	<filter id="f1" x="0" y="0">
+		  		<feGaussianBlur in="SourceGraphic" stdDeviation="15"/>
+		  	</filter>
+		  </defs>
+
+		  <rect
+		  	x="50" y="50"
+		  	width="100" height="100"
+		  	fill="blue" stroke="red"
+		  	stroke-width="5px"
+		  	filter="url(#f1)"
+		  />
+			
+		<defs>
+			<filter id="f2" x="0" y="0" width="200%" height="200%">
+				<feOffset result="offOut" in="SourceAlpha" dx="20" dy="20" />
+				<feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
+				<feBlend in ="SourceGraphic" in2="blurOut" mode="normal" />
+				<!--mode = multiple, screen, darken, lighten -->
+			</filter>
+		</defs>
+
+		<rect
+			x="200"
+			y="200"
+			width="90"
+			height="90"
+			stroke="green"
+			stroke-width="3"
+			fill="yellow"
+			filter="url(#f2)"
+		/>
+		
+		</svg>
+        
+        <br>
+        
+        
+
+
+	</body>
+</html>

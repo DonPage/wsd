@@ -1,0 +1,38 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+	 
+         <!-- Create SVG tag and give it a width and height & namespace-->
+        <svg width="300" height="300"  xmlns="http://www.w3.org/2000/svg" version="1.1">
+			<!-- Draw an Polyline
+				    used to create any shape that consists of only straight lines-->
+			<polyline 
+				points="0,40 40,40 40,80 80,80 80,120 120,120 120,160"
+  				style="fill:none;stroke:black;stroke-width:4"
+			/>
+		 <!-- change fill from none to red-->
+		 
+		 
+		 <!-- Write some text -->
+		 
+		 <text 
+		 	x="0" 
+			y="15" 
+			fill="red">I love SVG</text>
+		
+		
+		 <text 
+		 	x="50" 
+			y="75" 
+        	font-family="Verdana" 
+			font-size="55" 
+			fill="blue" >
+    		Hello! 
+		</text>
+		
+		</svg>
+        
+
+
+		<!-- Curves - too complex for code, this is where SVG editing program comes in handy-->

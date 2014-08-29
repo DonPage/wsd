@@ -1,0 +1,39 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+	 
+         <!-- Create SVG tag and give it a width and height & namespace-->
+        <svg width="500" height="500"  xmlns="http://www.w3.org/2000/svg" version="1.1">
+			
+			
+			<!-- 
+				Capital letters means absolutely positioned
+				Lower cases means relatively positioned
+				
+				The following commands are available for path data:
+					M = moveto
+					L = lineto
+					H = horizontal lineto
+					V = vertical lineto
+					C = curveto
+					S = smooth curveto
+					Q = quadratic Bezier curve
+					T = smooth quadratic Bezier curve to
+					A = elliptical Arc
+					Z = closepath
+			-->
+	
+	<path
+		d="M125 0 L50 100 L200 100 Z"
+		style="fill:red;stroke:black;stroke-width:4"
+	/>
+
+  				
+  				<!-- Curves - too complex for code, this is where SVG editing program comes in handy-->
+
+		</svg>
+        
+
+
+		

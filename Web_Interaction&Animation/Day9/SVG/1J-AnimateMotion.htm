@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Animating Motion</title>
+
+	</head>
+	<body>
+		<h1>Animating Motion</h1>
+		<p>This example will show how to animate motion of an SVG.</p>
+	
+    
+    <!-- Create SVG tag and give it a width and height-->
+		<svg width="500" height="500">
+			 <!-- Draw the outline of the motion path in grey-->
+			 
+					<!-- The following commands are available for path data:
+							M = moveto
+							L = lineto
+							Z = closepath
+					-->
+					 
+				<path 
+					d="M125 20 L50 100 L200 100 Z" 
+					style="fill:none;stroke:lightgrey;stroke-width:2"
+					 id="theMotionPath"
+				/>
+					 
+	
+			
+				<!-- Here is a red circle which will be moved along the motion path. -->
+				<circle cx="" cy="" r="5" fill="red">
+			
+					<!-- Define the motion path animation -->
+					<animateMotion dur="6s" repeatCount="indefinite">
+					   <mpath xlink:href="#theMotionPath"/>
+					</animateMotion>
+				</circle>
+	 
+		</svg>
+        
+        <br>
+        
+        
+
+
+	</body>
+</html>
